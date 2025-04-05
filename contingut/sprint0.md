@@ -1,15 +1,18 @@
 # Competència global
 Desenvolupar aplicacions web utilitzant eines i estratègies professionals
 
+## Duració
+1 setmana
+
 ## C01: Puc contextualitzar les aplicacions webs
-
-
 ### Treball de cerca i aprenentatge teòric
 Per desenvolupar aplicacions webs modernes, cal conèixer i manegar una serie de conceptes: 
 - Diferències entre internet i world wide web
 - Protocols de comunicació: HTTP/HTTPS
 - Caché
+- Proxy
 - Security: CORS, CSRF, SQL Injection, XSS, HTTPS
+- ssh
 - Arquitectura Client-Servidor: Comunicació entre navegador i servidor
 - Intercanvi de dades entre sistemes: APIRest i GraphQL
 - Connexió en temps real: WebSockets
@@ -27,7 +30,7 @@ Per desenvolupar aplicacions webs modernes, cal conèixer i manegar una serie de
 - Tipus d'aplicacions web i amb qui eines ens construeixen:
     - SPA (Single-Page Apps): ex: Gmail
     - PWA (Progressive Web Apps): ex: Twitter Lite
-    - SSR/Isomòrfiques
+    - Aplicacions SSR/Isomòrfiques
     - Aplicacions en Temps Real: ex: Slack
     - Microfrontends: ex: Netflix
     - Serverless
@@ -57,25 +60,46 @@ Per desenvolupar aplicacions webs modernes, cal conèixer i manegar una serie de
 - UX/UI Design
 - SCRUM/Agile
 - Terminal/CLI
+
 ### Taller
 - Analitza peticions amb *Chrome DevTools* (Pestanya *Network*):
    - Identifica `headers`, `payloads` i codis d'estats de la pàgina **https://www.gitHub.com**
    - Audita la accesibilitat de la pàgina amb l'eina lighthouse
-- Identifica tot els actors involucrats quan fas una cerca amb google
+- Identifica tot els actors involucrats en una cerca amb google
 
-## C02: Puc instal·lar i configurar les eines per desenvolupar aplicacions webs 
+## C02: Interacció amb el sistema operatiu i el software instal·lat mitjançant ordres al terminal linux
+
+
+## C03: Puc instal·lar i configurar les eines per desenvolupar aplicacions webs 
 ### Treball de cerca i aprenentatge teòric
-- Els nous IDEs de desenvolupament: VisualStudioCode, Windsurf, Cursor
-- Extensions de VSCode per treballar amb aplicacions web
-- Interacció amb l'IA dins del IDE. Bones pràctiques amb l'IA.
-- Arquitectura bàsica d'un projecte web (frontend/backend, node_modules)
-- Gestió de versions de Node.js (nvm)
-- Gestors de dependències de Node.js (npm, pnpm, yarn)
-- Estructura de `package.json`
-
+- IDEs de programació:
+    - Els nous IDEs de desenvolupament: VisualStudioCode, Windsurf, Cursor
+    - Extensions de VSCode per treballar amb aplicacions web
+    - Interacció amb l'IA dins del IDE. Bones pràctiques amb l'IA.
+- Node.js i arquitectura d'aplicacions web
+    - Arquitectura bàsica d'un projecte web (frontend/backend, node_modules)
+    - Gestió de versions de Node.js (nvm)
+    - Gestors de dependències de Node.js (npm, pnpm, yarn)
+    - Estructura de `package.json`
+    - Vite
 ## Taller:
 - Crea una aplicació todo-list amb VSCode + React 
 
+## C04:Git/GitHub
 ### Taller
-- In
-## C03: Interacció amb el sistema operatiu i el software instal·lat mitjançant ordres al terminal linux
+- Repo
+
+## C05: Agile
+### Taller
+- Backlog de historias de Usuario,
+- Gherking y toma de requerimientos (bdd)
+- Ceremonias de scrum
+- Sprint Goal
+
+## C06: Disseny de solucions lògiques a problemes
+### Contingut
+Workflows -- diagrames de flux (mermaid.js)
+-- sitemap
+-- user journey
+
+
