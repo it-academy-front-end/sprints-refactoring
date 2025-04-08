@@ -1,0 +1,1 @@
+- C13: Utilitzo les eines de control de versions i treball en equip per a col·laborar en projectes
