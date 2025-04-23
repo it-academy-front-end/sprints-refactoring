@@ -9,6 +9,8 @@ Conèixer les eines i metodologies del desenvolupament d'aplicacions web
 - C03: Puc instal·lar i configurar les eines per desenvolupar aplicacions webs: IDEs de programació moderna, eines basades en Node.js: nvm, package managers, vite, comprendre package.json.
 
 - C04: Comprenc i faig ús de eines de control de versions: Git/GitHub. Ordres bàsiques, git flow, treball en equip, eines avançadas com GIthub Actions.
-- C05: Comprenc el cicle de vida d’un projecte digital dins d’un entorn de treball àgil i, des del meu rol com a desenvolupador, sé interpretar requisits, definir criteris d’acceptació i dissenyar funcionalitats a partir d’escenaris de prova i tècniques de BDD.
+
+- C05: Comprenc el cicle de vida d’un projecte de software dins d’un entorn de treball àgil i, des del meu rol com a desenvolupador, sé interpretar requisits, definir criteris d’acceptació i desenvolupar funcionalitats a partir d’escenaris de prova.
+
 - C06: Puc dissenar solucions lògiques a problemes: faig ús de diagrames: de flux, sitemaps, user journey, etc.
 
