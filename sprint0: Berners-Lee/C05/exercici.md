@@ -15,6 +15,13 @@ Realitzar un anàlisi complet d'una història d'usuari, definint els requisits i
 4. **Descomposició de tasques**:
    - Divideix la història d’usuari en petites tasques tècniques que puguis implementar en el futur.
 
+5. **Priorització de tasques amb MoSCoW**:
+- Classifica les tasques segons la seva prioritat utilitzant la tècnica **MoSCoW**:
+  - **Must**: requisits essencials per al funcionament mínim
+  - **Should**: funcionalitats importants però no crítiques
+  - **Could**: millores o afegits que poden esperar
+  - **Won’t (this time)**: tasques que es descarten per aquesta iteració
+
 
 ## Hitòria d'usuari a analitzar
 
@@ -22,17 +29,25 @@ Realitzar un anàlisi complet d'una història d'usuari, definint els requisits i
 
 ## Rúbrica d'Avaluació
 
-| Criteris d'Assoliment | Notable (7-8) | Excel·lent (9-10) |
-|-----------------------|---------------|-------------------|
-| **Comprensió de requisits** | Interpretació bàsica dels requisits | Interpretació precisa i detallada dels requisits |
-| **Definició de criteris d’acceptació** | Criteris generals i comprensibles | Criteris clars, específics i ben justificats |
-| **Creació d’escenaris de prova** | Escenaris bàsics amb Gherkin | Escenaris ben detallats i amb cobertura completa |
-| **Descomposició de tasques** | Tasques generals, però ben organitzades | Descomposició clara i detallada de tasques |
-| **Documentació i lliurament** | Documentació clara i ben estructurada | Documentació exhaustiva amb exemples i referències |
+| Criteris d'Assoliment           | Notable (7-8)                              | Excel·lent (9-10)                                      |
+|----------------------------------|--------------------------------------------|--------------------------------------------------------|
+| **Comprensió de requisits**      | Interpretació bàsica dels requisits        | Interpretació precisa i detallada dels requisits       |
+| **Definició de criteris**        | Criteris generals i comprensibles          | Criteris clars, específics i ben justificats           |
+| **Escenaris de prova**           | Escenaris bàsics amb Gherkin               | Escenaris ben detallats i amb cobertura completa       |
+| **Descomposició de tasques**     | Tasques generals però ben organitzades     | Descomposició clara i detallada de tasques             |
+| **Aplicació de MoSCoW**          | Priorització bàsica                        | Aplicació coherent i justificada de la tècnica MoSCoW  |
+| **Documentació i lliurament**    | Documentació clara i estructurada          | Documentació exhaustiva amb exemples i referències     |
+
+---
 
 ## Lliurament Final
-- Document Markdown
-- captura de pantalla del tauler kanban amb les tasques identificades
+
+- Document Markdown amb:
+  - Criteris d’acceptació
+  - Escenaris de prova
+  - Tasques tècniques
+  - Priorització MoSCoW
+- Captura de pantalla del tauler Kanban amb les tasques identificades i classificades.
 
 
 
