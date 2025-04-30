@@ -10,7 +10,7 @@ Conèixer les eines i metodologies del desenvolupament d'aplicacions web
 
 - C04: Comprenc i faig ús de eines de control de versions: Git/GitHub. Ordres bàsiques, git flow, treball en equip, eines avançadas com GIthub Actions.
 
-- C05: Comprenc el cicle de vida d’un projecte de software dins d’un entorn de treball àgil i, des del meu rol com a desenvolupador, sé interpretar requisits, definir criteris d’acceptació i desenvolupar funcionalitats a partir d’escenaris de prova.
+- C05: Puc dissenyar solucions lògiques i funcionals d'una aplicació mitjançant l'ús de diagrames com ara fluxos lògics, sitemaps, user journeys i user flows.
 
-- C06: Puc dissenar solucions lògiques a problemes: faig ús de diagrames: de flux, sitemaps, user journey, etc.
+- C06: Comprenc el cicle de vida d’un projecte de software dins d’un entorn de treball àgil i, des del meu rol com a desenvolupador, sé interpretar requisits, definir criteris d’acceptació i desenvolupar funcionalitats a partir d’escenaris de prova.
 
