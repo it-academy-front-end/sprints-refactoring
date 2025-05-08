@@ -52,15 +52,18 @@
 
 ---
 
-## Exercici Pràctic
+## Exercici Pràctic 
 
 ### Descripció:
 
-1. Analitzar 6 aplicacions web diferents
-2. Per a cada aplicació:
-   - Identificar la seva tipologia,
-   - Justificar amb evidències tècniques,
-   - Documentar característiques principals,
+1. Resoldre reptes interactius per practicar ordres bàsiques a la terminal a la següen pàgina [Scavenger Hunt](https://github.com/pushingice/scavenger-hunt)
+2. Aprender a usar terminal utilizando comandos básicos
+    - Muestra todos los archivos que contiene tu directorio raíz (root directory).
+    - Crea una nueva carpeta en tu directorio raíz y llámala “itacademy-proyectos”.
+    - Accede a la nueva carpeta que has creado, “itacademy-proyectos”.
+    - Una vez dentro de la carpeta, crea un archivo que llamaremos “hoal-mundo.txt”
+    - ¡Oh, no! 😵 Tenemos un typo, vamos a eliminar el archivo “hoal-mundo.txt” y crear uno nuevo que se llame “hola-mundo.txt”.
+    - Regresa al directorio raíz.
 
 ### Lliuraments:
 
@@ -69,27 +72,6 @@
 
 ### Recursos:
 
-1. **Aplicacions a Analitzar:**
-
-| Grup | Exemples |
-|------|----------|
-| **Grup 1: Webs Comercials** | - Amazon.com<br>- Blog personal WordPress<br>- Portafoli estàtic |
-| **Grup 2: Aplicacions Web** | - Airbnb<br>- Twitter<br>- Pàgina de documentació de MDN |
-
-2. **Exemple de l'Estructura de l'Anàlisi**
-
-Per a cada aplicació, hauràs de completar la següent taula:
-
-**Nom de l'Aplicació**
-
-| Criteri | Descripció |
-|---------|------------|
-| Tipologia | Estàtica/Dinàmica/SPA |
-| URL | [URL de l'aplicació](#) |
-| Evidències tècniques | - Llista de característiques observades |
-| Comportament de navegació | Descripció del comportament |
-| Temps de càrrega | Anàlisi amb DevTools |
-| Interacció amb servidor | Patrons observats |
 
 ---
 
@@ -97,8 +79,8 @@ Per a cada aplicació, hauràs de completar la següent taula:
 
 Al final de cada tema, **respon aquestes preguntas en els teus apunts** per fixar coneixements i identificar dubtes. **No les saltis** —són clau per aprenentatge sólid.
 
-- Per què és important l'accessibilitat web?
-- Quins components formen part de larquitectura dun navegador web?
-- quines són les diferències entre front-end i back-end?
-- Quins elements es poden controlar amb HTTP?
-- Quins tipus d'emmagatzematge local suporta un navegador modern?
+- 
+- 
+- 
+- 
+- 
