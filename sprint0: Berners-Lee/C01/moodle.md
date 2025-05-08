@@ -21,7 +21,7 @@ Aquesta unitat consta de tres apartats diferenciats: teòric, pràctic i qüesti
 > Pots crear el teu espai personal a Notion, Obsidian o GitBook per desar els conceptes, exemples i trucs. Pots organitzar-ho per temes (HTML, JS, Git...) i així tindràs el teu propi manual tècnic a mà.  
 > ✏ **Fes-ho ara**: obre una pàgina i comença amb el primer tema.  
 
-- Per a la part pràctica, hauràs de crear un document escrit que incorporaràs als apunts.  
+- Per a la pràctica, hauràs de crear un document escrit que incorporaràs als apunts amb els processos i les teves conclusions.  
 - El qüestionari el resoldràs a la plataforma **Moodle**.  
 
 ## Fonaments teòrics (1,5 h)  
@@ -52,11 +52,11 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes 
 
 Internet, *World Wide Web*, HTTP/HTTPS, Cau, *Proxy*, CORS, CSRF, *SQL Injection*, XSS, SSH, API REST, GraphQL, *WebSockets*, JWT, OAuth, DNS, URL/URI, *Cookie*, SEO, DevOps, Servidor de desenvolupament, Servidor de preproducció (*staging*), Servidor de producció, CI/CD, GitHub Actions, Jenkins, Nginx, Apache, Docker, Kubernetes, AWS, Google Cloud, Azure, Vercel, Netlify, SPA, PWA, SSR/Isomòrfiques, Aplicacions en temps real, Microserveis, *Serverless*, IA generativa, Models d'IA, Assistents virtuals, Aplicacions híbrides, Git/GitHub/GitLab/BitBucket, A11Y, ARIA, Disseny responsiu (*Responsive Design*), *Mobile First*, *Media Queries*, HTML5, CSS3, DOM, SASS, JavaScript, ECMAScript, TypeScript, *Web Components*, *Web Assembly*, *Frontend*, *Backend*, Sistema de gestió de bases de dades, Base de dades relacional, NoSQL, SQL, JOINs, Índexs, ORMs, Test unitari, Test e2e, Microserveis, Arquitectura de *software*, Rendiment web (*Web Performance*), *Lazy Loading*, CDN, Lighthouse, UX/UI, Àgil (*Agile*), Scrum, Terminal/CLI.  
 
-## Exercici pràctic (1 h)  
+## Pràctica (1 h)  
+Aquí podràs posar en pràctica allò après al llarg de la unitat, ànim!
 
-Aquí posaràs a prova els teus coneixements **fent una anàlisi** de 6 aplicacions web diferents de dues categories: webs comercials i aplicacions.  
-
-Per a cada aplicació web, hauràs de:  
+### Exercici 1
+ **Fes una anàlisi** de 6 aplicacions web diferents de dues categories: webs comercials i aplicacions. Per a cada aplicació web, hauràs de:  
 1. Identificar-ne la tipologia.  
 2. Justificar-ho amb evidències tècniques.  
 3. Documentar-ne les característiques principals.  
@@ -85,9 +85,9 @@ Per a cada aplicació, completa la següent taula:
 | Temps de càrrega | Anàlisi amb DevTools |  
 | Interacció amb el servidor | Patrons observats |  
 
-### Lliuraments  
+## Lliuraments  
 
-- Els apunts digitals propis del contingut treballat.  
+- Els apunts digitals propis del el contingut investigat, apunts i conclusions.  
 - L'anàlisi de les 6 aplicacions web als teus apunts digitals.  
 
 ## Autoevaluació dels coneixements (0,5 h)  
