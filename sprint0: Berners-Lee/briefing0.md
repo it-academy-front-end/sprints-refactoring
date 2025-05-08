@@ -1,5 +1,10 @@
+# Sprint 0: Berners Lee / 
+
 ## Objectiu
-Conèixer les eines i metodologies del desenvolupament d'aplicacions web
+Desenvolupar les competències inicials necessàries per integrar-se en un entorn professional de desenvolupament web front-end, comprenent els conceptes i el vocabulari fonamentals, utilitzant eines tècniques bàsiques com la terminal i Git, configurant correctament l'entorn de treball i comprenent el cicle de vida del desenvolupament de programari dins un marc àgil. A més, aplicar tècniques danàlisi funcional i disseny lògic centrat en lusuari.
+
+## Durada del sprint
+1 setmana
 
 ## Competències
 - C01: Puc contextualitzar les aplicacions webs. Vocabulari i conceptes que s'han de manejar
