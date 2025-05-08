@@ -15,7 +15,7 @@ La durada estimada d'aquest mòdul és de **3 hores**.
 ### Metodologia  
 Aquesta unitat consta de tres apartats diferenciats: teòric, pràctic i qüestionari d'autoconeixement.  
 
-- Per a la teoria, hauràs d'**el·laborar** uns apunts i lliurar la **URL** al final d'aquesta unitat.  
+- Per a la teoria, hauràs d'**elaborar** uns apunts i lliurar la **URL** al final d'aquesta unitat.  
 
 > **Important**  
 > Pots crear el teu espai personal a Notion, Obsidian o GitBook per desar els conceptes, exemples i trucs. Pots organitzar-ho per temes (HTML, JS, Git...) i així tindràs el teu propi manual tècnic a mà.  
