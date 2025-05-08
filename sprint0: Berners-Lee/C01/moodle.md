@@ -2,7 +2,7 @@
 
 En aquesta unitat, treballaràs els fonaments de les aplicacions web per comprendre com es construeixen, quins elements les formen i com funcionen.  
 Al final de l'unitat seràs capaç de manejar el vocabulari i els conceptes de les aplicacions web.  
-La durada estimada d'aquest mòdul **és** de 3 hores.  
+La durada estimada d'aquest mòdul és de **3 hores**.  
 
 ## Objectius d'aprenentatge  
 
