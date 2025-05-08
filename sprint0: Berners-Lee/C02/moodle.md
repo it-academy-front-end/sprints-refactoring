@@ -42,7 +42,7 @@
 
 - [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files)
 - [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line)
-- [cheat sheet de comandes Linux](https://tldr.sh/)
+- [cheat sheet de comandes Linux](https://cheatography.com/jonathan992/cheat-sheets/gnu-linux-command-spanish/)
 - [Environment Variables: A Comprehensive Guide](https://dev.to/pizofreude/environment-variables-a-comprehensive-guide-34dg)
 - [Environment Variables in Windows/macOS/Linux](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html)
 
