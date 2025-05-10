@@ -9,23 +9,14 @@ La durada estimada d'aquest mòdul és de **3 hores**.
 ## Objectius d'aprenentatge  
 
 1. Conèixer els diferents components de la interfície d'usuari i personalitzar-la segons les teves preferències.
-
 2. Escriure codi i utilitzar les funcions d'edició integrades, com IntelliSense i Code Actions, i aprendre sobre l'execució i depuració de codi.
-
 3. Instal·lar una extensió de llenguatge i afegir suport per a un llenguatge de programació diferent.
-
 4. Conèixer les millors pràctiques de la intel·ligència artificial (IA) en l'entorn de desenvolupament.
-
 5. Instal·lar Node.js i els gestors de paquets de Node.
-
 6. Conèixer i utilitzar les comandes bàsiques de npm per gestionar paquets de Node.js.
-
 7. Conèixer i configurar el fitxer package.json per iniciar projectes de JavaScript.
-
 8. Crear projectes amb Vite.
-
 9. Configurar dependències en Vite.
-
 10. Configurar l'entorn de producció en Vite.
 
 
