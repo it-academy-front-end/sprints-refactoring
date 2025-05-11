@@ -25,7 +25,7 @@ Aquesta unitat consta de tres apartats diferenciats: teòric, pràctic i qüesti
 - El qüestionari el resoldràs a la plataforma **Moodle**.  
 
 ## Fonaments teòrics (1,5 h)  
-Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes y termes** que has de conèixer. Et donem alguns recursos que poden ser interessants i un glossari que us ajudaran a enfocar i orientar la vostra recerca   
+Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes y termes** que has de conèixer. Et donem alguns recursos que poden ser interessants i un glossari que us ajudaran a enfocar i orientar la vostra recerca.   
 
 ### Temes d'investigació  
 
