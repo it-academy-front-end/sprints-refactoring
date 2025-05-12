@@ -129,7 +129,7 @@ Crear un **diagrama de flux** que representi el procés complet de registre d'us
 ### Context
 La botiga "BotigaTech" ven productes electrònics (mòbils, ordinadors, accessoris) i necessita un sitemap clar per guiar el desenvolupament de la seva aplicació web.  
 
-### Objectius d'aprenantatge
+### Objectius d'aprenentatge
 Crear un **sitemap** estructurat que representi la jerarquia de pàgines i la navegació d’una botiga online fictícia (ex: "BotigaTech").  
 
 ### Passos a seguir
