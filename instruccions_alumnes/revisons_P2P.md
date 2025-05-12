@@ -1,99 +1,121 @@
-
-
-
-
-Front: https://github.com/IT-Academy-BCN/ita-best-practices-guides/blob/main/MANUAL_REVISIONES.md
-
-back: https://aspiring-gaura-1f9.notion.site/Guia-per-a-la-Revisi-en-Parelles-1b4d8c2a63c88050bee3d238c0e9f060
-
-
-
-# Guía para Dar Feedback entre Estudiantes
+# Guía para Code Review y Feedback entre Estudiantes
 
 ## Introducción
 
-Esta guía tiene como objetivo proporcionar un proceso estructurado y efectivo para hacer code review y dar feedback  entre compañeros de clase. Las code review no sólo permite mantener la calidad del código y detectar errores de manera anticipada, sino que también fomenta el aprendizaje colaborativo y el desarrollo profesional.
+Esta guía tiene como objetivo proporcionar un proceso estructurado y efectivo para hacer code review y dar feedback  entre compañeros de clase (parejas).
 
----
+**¿Por qué es importante?**
+- Aprendizaje activo: Descubres nuevas soluciones y buenas prácticas.
+- Calidad del código: Detectas errores antes y mejoras la mantenibilidad.
+- Habilidad profesional: El code review es esencial en entornos laborales. 
 
-## ¿Cómo realizar una Code review?
+## ¿Cómo Realizar una Code Review?
 
 ### 1. Preparación
 
 1. **Descarga y Prueba:** Descarga el proyecto del compañero y pruébalo en tu entorno local.
    
-2. **Creación de Issue:** Crea una **issue** en el repositorio del compañero con el título:  
-   - `Revisión Sprint [Número] - Feedback`. Esto facilita la organización y seguimiento del feedback.
+2. **Creación de Issue:** Crea una **issue** en el repositorio de la dueña del proyecto con el título:  
+- `Code review Sprint [Número] - [Nombre-revisa]`. Esto facilita la organización y seguimiento del feedback.
 
-### 2. Revisión del Proyecto
+### 2. Métodos de Revisión
 
-#### Funcionalidad
+1. **Revisión Asíncrona (GitHub Issues)**
+- Sigue los **criterios técnicos de revisión** detallados más abajo.
+- Documenta tus hallazgos en la issue usando el **formato de documentación de una code review** detallado mas abajo.
+ 
+2. **Revisión en Parelles (Síncrona/Presencial)**
+- La revisión se realiza de manera síncrona, presencialmente y por parejas.
+- El **autor** explica: el objetivo de la solución, las decisiones técnicas tomadas, los puntos clave a considerar.
+- El **revisor**: lee el código detenidamente, identifica posibles mejoras, plantea dudas y propuestas de cambio y documenta sus hallazgos en la issue usando el **formato de documentación de una code review** detallado mas abajo.
 
-- Verifica que todas las características descritas en el README funcionen correctamente.
-- Identifica errores visibles o casos no manejados.
+## Criterios Ténicos a Observar en una Code Review
+1. **Cumplimiento del Enunciado**
+- Verificar que la solución cumple todos los requisitos especificados.
+- Asegurar que las funcionalidades obligatorias están implementadas correctamente.
+- Comprobar que los casos especiales y posibles errores se gestionan adecuadamente.
+- Revisar que el código está escrito en inglés: nombres de clases, métodos, variables y comentarios.
 
-#### Código y Clean Code
+2. **Calidad del código**
+    **Formato y Convenciones**
+    - Mantener una indentación coherente según los estándares del lenguaje.
+    - Usar correctamente espacios y saltos de línea en estructuras de control.
+    - Escribir comentarios breves y claros solo cuando sean necesarios.
+    - Mantener una organización consistente en todos los archivos del proyecto.
 
-- Evalúa si el código sigue principios de **Clean Code**:
-  - ¿Está bien estructurado y es fácil de entender?
-  - ¿Se evita la duplicación de código?
-  - ¿Los nombres de variables, funciones y clases son significativos?
+    **Nomenclatura**
+    - Usar nombres descriptivos para clases, métodos y variables.
+    - Evitar abreviaturas poco claras o nombres genéricos.
+    - Seguir las convenciones de nomenclatura establecidas en el proyecto.
+    - Emplear nombres que indiquen la función o responsabilidad de cada elemento.
 
-#### Git y Gitflow
+    **Métodos Cortos con Única Responsabilidad**
+    - Verificar que los métodos y clases sean concisos y no hagan demasiadas cosas.
+    - Aplicar el principio de responsabilidad única para mejorar legibilidad y mantenimiento.
+    - Considerar dividir métodos complejos en otros más específicos cuando sea necesario.
 
-- Revisa el uso de Git:
-  - ¿Los commits son descriptivos y pequeños?
-  - ¿Se respetó la estructura de ramas (Gitflow)?
-  - ¿El archivo `.gitignore` está configurado correctamente?
+    **Control de la Complejidad**
+    - Reducir condicionales y bucles anidados innecesarios.
+    - Usar estrategias como early returns o fail fast para simplificar la lógica.
+    - Evitar el uso excesivo de variables temporales o flags que compliquen el flujo.
 
-#### Documentación (README)
+    **Estructuras de Datos**
+    - Elegir las colecciones adecuadas para cada tipo de dato.
+    - Evitar iteraciones o modificaciones ineficientes de listas y conjuntos.
+    - Considerar construcciones del lenguaje que puedan simplificar la lógica.
 
-- Asegúrate de que el README sea claro y completo:
-  - ¿Describe el propósito del proyecto y las tecnologías utilizadas?
-  - ¿Incluye instrucciones de instalación y ejecución?
+3. **Robustez y Manejo de Errores**
+- Garantizar que las excepciones se manejan correctamente.
+- Evitar capturas demasiado genéricas, priorizando manejo específico de errores.
+- Minimizar el uso de valores nulos, empleando alternativas que mejoren el control.
+- Asegurar que no hay errores que queden sin tratamiento o notificación.
 
-#### Estilo y Usabilidad
+4. **Estructura del Proyecto**
+- Verificar que las clases están organizadas coherentemente en paquetes.
+- Comprobar que los archivos tienen nombres apropiados que reflejen su propósito.
+- Asegurar que las dependencias están bien gestionadas sin imports innecesarios.
 
-- Evalúa el diseño y la usabilidad:
-  - ¿El diseño es responsive y atractivo?
-  - ¿Se manejan adecuadamente los errores para el usuario?
-  - ¿Los estilos están bien organizados y no hay redundancia?
+    **Archivo  .gitignore**
+    - Incluir archivos que no deben estar en el repositorio (ej: de compilación).
+    - Revisar que no se exponen secretos ni datos sensibles.
 
-### 3. Dar Feedback
+    **Archivo README.md** confirmar que incluye:
+    - Descripción y propósito del proyecto.
+    - Tecnologías utilizadas.
+    - Instrucciones claras para configuración y ejecución.
+    - Capturas de pantalla o demos cuando sea relevante.
 
-- Usa un lenguaje constructivo y amigable:
-  - Elogia lo que está bien hecho.
-  - Identifica áreas de mejora específicas.
-  - Ofrece sugerencias claras para la mejora continua.
+## ¿Cómo Dar Feedback Efectivo?
+Una buena revisión no solo señala errores, sino que inspira mejoras y celebra los aciertos.
+¿Listos para convertiros en expertos en code review? ¡A practicar! 💻🔍
 
-### 4. Formato de la Issue de Feedback
+1. **Buenas Practicas de una Code review**
+- Mantén una actitud constructiva: se revisa el código, no a la persona.
+- Anota dudas y sugerencias de forma clara y respetuosa.
+- El objetivo es que la revisión sea efectiva y promueva una mejora continua.
 
-**Revisión de Proyecto**
+2. **Estructura tu feedback en 3 partes:**
+- **Fortalezas**: "El sistema de rutas está muy bien organizado."
+- **Áreas de mejora**: "El componente Button podría reutilizarse en otras vistas."
+- **Sugerencias concretas**: "Usa Array.map() para simplificar este loop."
 
-**1. Funcionalidad:**
-- Todas las características descritas en el README funcionan correctamente.
-- Se observaron errores al procesar formularios vacíos.
+### Formato de documentación de una Code Review
+Puedes usar esta estructura para documentar la Code Review realizada:
 
-**2. Código y Clean Code:**
-- El código es legible y sigue principios de Clean Code.
-- Se encontró duplicación de código en las funciones `calculateTotal` y `calculateTax`.
+    ```html
+    ## Code Review Sprint 3 - Manuela Grajales Duque
 
-**3. Git y Gitflow:**
-- Los commits son descriptivos y claros.
-- Falta respetar la estructura de Gitflow para un flujo de trabajo más ordenado.
+    ### 🔧 **Funcionalidad**  
+    - ✅ Todo el CRUD funciona según lo esperado.  
+    - ❌ El botón "Guardar" no muestra feedback al usuario cuando falla el API.  
 
-**4. Documentación (README):**
-- El README es informativo y completo.
-- Se recomienda añadir capturas de pantalla del proyecto para facilitar la comprensión.
+    ### 🧹 **Clean Code**  
+    - 👍 Los nombres de variables son muy claros (`userList`, `handleSubmit`).  
+    - 👀 Oportunidad: Elimina el código comentado en `utils/helpers.js`.  
 
-**5. Estilo y Usabilidad:**
-- El diseño es atractivo y responsive.
-- Algunos estilos CSS podrían optimizarse para evitar redundancias.
+    ### 📚 **README**  
+    - ✨ Muy completo, pero falta añadir cómo ejecutar los tests.  
 
-### Feedback General
-
-¡Excelente trabajo! El proyecto es funcional y tiene un diseño atractivo. Para mejorar, te sugeriría modularizar el código para facilitar su mantenimiento y asegurar que se respeten las convenciones de Gitflow para un desarrollo más estructurado.
-
----
-
-Con esta guía, los estudiantes tendrán un marco claro para evaluar y mejorar los proyectos de sus compañeros, fomentando un ambiente colaborativo y de aprendizaje continuo.
+    ### 🤝 **Feedback General**  
+    ¡Excelente trabajo! El código es limpio y funcional. Sugiero añadir un spinner durante las llamadas al API para mejorar la UX.   
+    ```
