@@ -13,7 +13,7 @@ La durada estimada d'aquest mòdul és de **3 hores**.
 3. Instal·lar una extensió de llenguatge i afegir suport per a un llenguatge de programació diferent.
 4. Conèixer les millors pràctiques de la intel·ligència artificial (IA) en l'entorn de desenvolupament.
 5. Instal·lar Node.js i els gestors de paquets de Node.
-6. Conèixer i utilitzar les comandes bàsiques de npm per gestionar paquets de Node.js.
+6. Conèixer i utilitzar les ordres bàsiques de npm per gestionar paquets de Node.js.
 7. Conèixer i configurar el fitxer package.json per iniciar projectes de JavaScript.
 8. Crear projectes amb Vite.
 9. Configurar dependències en Vite.
@@ -64,9 +64,8 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes*
 - [Corepack-Handling package managers problems](https://www.totaltypescript.com/how-to-use-corepack)
 - [Vite](https://es.vite.dev/guide/)
 
-## Exercici pràctic (1 h)  
+## Exercici pràctic: Creació i publicació d’un package npm (1 h)  
 
-Creació i publicació d’un package npm
 ### Context
 En aquest taller aprendràs a crear un package npm que mostri la data i l’hora actual. També aprendràs a publicar aquest package a npm i a utilitzar-lo en un projecte nou. Aquest exercici et permetrà entendre el procés de creació, publicació i ús de packages npm, una habilitat essencial per a desenvolupadors front-end i back-end.
 
@@ -77,31 +76,30 @@ En aquest taller aprendràs a crear un package npm que mostri la data i l’hora
 - Utilitzar un package npm publicat en un projecte nou.
 
 ### Passos a seguir
-#### 1. Inicialitzar el projecte npm:
+1. **Inicialitzar el projecte npm**
    - Crea un nou directori a la teva carpeta de projectes.
    - Dins de la nova carpeta, inicialitza un nou projecte npm
    - Completa la informació requerida, com el nom del package (busca un nom que reflexi l'utilitat), la versió (comença amb "0.0.1"), l'autor (teu usuari de npm) i la descripció.
 
-#### 2. Crear l’script per mostrar la data i l’hora actual:
+2. **Crear l’script per mostrar la data i l’hora actual**
    - Crea un fitxer `index.js`.
    - Escriu una funció que imprimeixi la data i l’hora actual a la consola.
 
-#### 3. Configurar el package.json:
+3. **Configurar `package.json`**
    - Afegeix un camp `main` al `package.json` que apunti al fitxer `index.js`.
    - Defineix un script personalitzat per executar el fitxer amb `node`.
 
-#### 4. Publicar el package a npm:
+4. **Publicar el package a npm**
    - Assegura’t que tens un compte a npm i que has iniciat sessió amb `npm login`.
    - Publica el package amb la comanda `npm publish`.
 
-#### 5. Utilitzar el package en un projecte nou:
+5. **Utilitzar el package en un projecte nou**
    - Crea un nou projecte "vanilla" "javascript" amb  **`vite`**
    - Instal·la el package que has creat abans dins d'aquest nou projecte.
    - Importa el package al fitxer `main.js` del projecte.
    - Comprova el resultat a la consola del navigador.
 
-### Lliuraments  
-
+## Lliuraments  
 - Els apunts digitals propis del contingut treballat.  
 - Proporciona el nom del package publicat a npm.
 
@@ -115,7 +113,7 @@ Respon **aquestes preguntes** als teus apunts per fixar coneixements i identific
     - npm (Node Package Manager)
     - package.json
 (Inclou almenys 2 característiques clau per cada element)
-2. Explica quines comandes de npm són necessàries per:
+2. Explica quines ordres de npm són necessàries per:
     - Instal·lar dependències regulars
     - Instal·lar dependències de desenvolupament
     - Actualitzar totes les dependències
