@@ -1,32 +1,30 @@
-## Metodología
+## Introducció 
 
-**Duració:** 2 Hores
+En aquesta unitat, aprendràs a interactuar amb el terminal com un professional: navegar directoris, manipular fitxers, crear scripts i gestionar permisos. Tot això et prepararà per treballar en entorns reals de desenvolupament.
+La durada estimada d'aquest mòdul és de **3 hores**.  
 
-**Competència:** Puc interaccionar amb el sistema operatiu i el software instal·lat mitjançant ordres al terminal: ordres bàsiques del terminal
+### Objectius d'Aprenentatge:
 
-👋 En aquesta unitat, aprendràs a interactuar amb el terminal com un professional: navegar directoris, manipular fitxers, crear scripts i gestionar permisos. Tot això et prepararà per treballar en entorns reals de desenvolupament.
-
-**Objectius d'Aprenentatge:** Al finalitzar, seràs capaç de:
+Al finalitzar, seràs capaç de:
 
 1. Utilitzar ordres bàsiques del terminal per gestionar fitxers i directoris.
-2. Automatitzar tasques senzilles amb scripts bash.
-3. Gestionar permisos d'accés
-4. Executar tasques i rutines de scripts
+2. Gestionar permisos d'accés
 
-**Com treballarem?**  
-2 hores (organitzades en blocs flexibles).
+### Metodologia  
+Aquesta unitat consta de tres apartats diferenciats: teoria, pràctica i qüestionari d'autoconeixement.  
 
-1. **Fase teòrica (0,5 h):** Investigaràs conceptes clau.
-2. **Fase pràctica (1 h):** Resoldràs reptes bàsics amb la terminal (per gestionar estructures, scripts i permisos)
-3. **Fase d'autoavaluació (0,5 h):** Revisaràs els teus apunts i faràs un qüestionari per consolidar el que has après
+- Per a la teoria i la practiva, hauràs d'**elaborar** uns apunts amb els processos i les teves conclusions i lliurar la **URL** al final d'aquesta unitat.  
 
 > **Important**  
-> Portar apunts t'estalvia temps i reforça allò que aprens. Crea el teu espai personal a Notion, Obsidian o GitBook per guardar exemples, conceptes i trucs. Pots organitzar-ho per temes (HTML, JS, Git...) així tindràs el teu propi manual tècnic a mà.  
-> ✏ Fes-ho ara: obre una pàgina i comença amb el primer tema.
+> Pots crear el teu espai personal a Notion, Obsidian o GitBook per desar els conceptes, exemples i trucs. Pots organitzar-ho per temes (HTML, JS, Git...) i així tindràs el teu propi manual tècnic a mà.  
+> ✏ **Fes-ho ara**: obre una pàgina i comença amb el primer tema.  
+ 
+- El qüestionari el resoldràs a la plataforma **Moodle**. 
 
 ---
 
-## Principis Teòrics
+## Fonaments teòrics (1,5 h) 
+Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes y termes** que has de conèixer. Et donem alguns recursos que poden ser interessants i un glossari que us ajudaran a enfocar i orientar la vostra recerca. 
 
 ### Temes a investigar
 
@@ -48,39 +46,98 @@
 
 ### Glossari
 
-?
+Sistema operativo, Unix, Linux, windows, Extensiones comunes (.txt, .sh, .log, .conf, .tar.gz, .zip, .json, .csv), raíz (/), variables de entorno y/o sistema operativo, terminal, shell, rutas absolutas, rutas relativas, pwd, ls, ls -l, ls -a, cd, cd ~, cd .., mkdir, touch, cp, mv, rm, rm -r, chmod, chown, grep, find, |, ps, ps aux, kill, top, htop, ping, ssh, curl, wget, #!/bin/bash, history, man, tar, sudo, PATH, echo, cat, nano, vim, clear, exit, su, df, du, alias, env, scp, rsync, ln, cron, jobs, bg, fg.
 
 ---
 
-## Exercici Pràctic 
+## Pràctica 
 
-### Descripció:
-
+### Exercici pràctic 1:
+#### Context del pràctica:
+En aquest taller entendràs com navegar eficientment per l’estructura del sistema i manipular recursos. 
+#### Objectius d’aprenentatge:
+- Navegar i gestionar directoris i l’estructura del sistema
+#### Passos a seguir:
 1. Resoldre reptes interactius per practicar ordres bàsiques a la terminal a la següen pàgina [Scavenger Hunt](https://github.com/pushingice/scavenger-hunt)
-2. Aprender a usar terminal utilizando comandos básicos
-    - Muestra todos los archivos que contiene tu directorio raíz (root directory).
-    - Crea una nueva carpeta en tu directorio raíz y llámala “itacademy-proyectos”.
-    - Accede a la nueva carpeta que has creado, “itacademy-proyectos”.
-    - Una vez dentro de la carpeta, crea un archivo que llamaremos “hoal-mundo.txt”
-    - ¡Oh, no! 😵 Tenemos un typo, vamos a eliminar el archivo “hoal-mundo.txt” y crear uno nuevo que se llame “hola-mundo.txt”.
-    - Regresa al directorio raíz.
 
-### Lliuraments:
+### Exercici pràctic 2:
+#### Context del pràctica:
+En aquest taller aprendràs a utilitzar ordres bàsiques per navegar eficientment per l’estructura del sistema i gestionar fitxers i directoris en entorns Unix/Linux. 
+#### Objectius d’aprenentatge:
+- Navegar i gestionar directoris i l’estructura del sistema
+- Manipular fitxers amb precisió
+#### Passos a seguir:
+##### 1. Navegació
+- Mostra tots els fitxers (inclosos els ocults) del vostre directori arrel (/ o ~).
+- Navega al directori on vols començar a desar els projectes de la ItAcademy
 
-- Els apunts propis digitals del contingut treballat,
-- L'anàlisi de les 6 aplicacions web (Pots consultar el llistat d'aplicacions i un exemple d'estructura d'anàlisi a la secció de Recursos.) als teus apunts digitals
+##### 2. Creació d'estructura
+- Crea una carpeta nova anomenada itacademy-proyectos al directori arrel.
+- Accedeix a la carpeta itacademy-proyectos.
+- Dins d'aquesta carpeta crea una subcarpeta anomenada sprint-1
+- Accedeix a la carpeta sprint-1.
+- Dins de sprint-1 crea una altra subcarpeta anomenada unitat-1
+- Accedeix a la carpeta unitat-1.
+- Crea un fitxer anomenat hoal-mundo.txt.
 
-### Recursos:
+##### 3. Gestió d'errors:
+- Elimina el fitxer mal escrit (hoal-mundo.txt).
+- Crea un nou fitxer anomenat hola-mundo.txt.
+- Verifica el contingut del directori actual
+- Retorna al directori arrel sense usar la ruta completa.
+- Verifica el contingut del directori arrel
 
+### Exercici pràctic 3:
+#### Context del pràctica:
+En aquest taller aprendràs a utilitzar ordres avançades del terminal per gestionar permisos de fitxers, directoris en entorns Unix/Linux.
+
+#### Objectius d’aprenentatge:
+- Entendre i modificar permisos 
+
+#### Passos a seguir:
+##### 1. Preparació inicial
+- Dins de sprint-1 crea una nou directori un directori nou anomenat projecte-secret.
+- Dins de projecte-secret, crea un fitxer anomenat clau.txt amb el contingut: "Això és una clau secreta!" (Recorda que el text l'has d'inserir al document mitjançant l'ús de la terminal)
+
+##### 2. Verificació de permisos actuals
+- Executa ls -l ~/projecte-secret i observa els permisos del fitxer clau.txt (ex: -rw-r--r--).
+
+##### 3. Modificació de permisos
+- Canvia els permisos de clau.txt perquè només el propietari pugui llegir-lo i escriure’l
+
+##### 4. Simulació d’accés denegat
+- Obre una nova terminal o canvia d’usuari (opcional amb su).
+- Intenta llegir el fitxer amb. (Resultat esperat: Permission denied)
+
+##### 5. Gestió de permisos per a directoris
+- Canvia els permisos del directori projecte-secret perquè només el propietari hi pugui accedir:
+- Verifica que altres usuaris no puguin veure el contingut del directori.
+
+### Autoevaluació
+- [ ] He navegat entre directoris.  
+- [ ] He creat directoris i fitxers. 
+- [ ] He buscat fitxers i directoris.
+- [ ] He renombrat fitxers o directoris.
+- [ ] He eliminat fitxers o directoris.
+- [ ] He corregit errors comuns (ex: fitxers mal escriptes). 
+- [ ] He entès els permisos bàsics (r, w, x).
+- [ ] He canviat permisos de fitxers/directoris.
+- [ ] Puc explicar què fa cada comanda utilitzada en l’exercici.
+---
+
+## Lliuraments:
+
+- Els apunts propis digitals del contingut treballat, amb screenshots dels resultats obtinguts als exercicis
+- Entrega a la plataforma el llistat de punts de l'exercicis amb les comandes que has fet servir a cada pas.
 
 ---
 
 ## Autoevaluació dels Coneixements
 
-Al final de cada tema, **respon aquestes preguntas en els teus apunts** per fixar coneixements i identificar dubtes. **No les saltis** —són clau per aprenentatge sólid.
+Respon **aquestes preguntes** als teus apunts per fixar coneixements i identificar dubtes:  
 
-- 
-- 
-- 
-- 
+- Sé diferenciar entre unix i windows?
+- Per què serveix el terminal en el desenvolupament de programari?
+- Quina diferència hi ha entre rutes absolutes i relatives?
+- Quines limitacions té el terminal davant d'una interfície gràfica (GUI)?
 - 

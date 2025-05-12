@@ -1,6 +1,7 @@
 ## Introducció  
 
 En aquest mòdul, aprendràs a utilitzar Git i GitHub per gestionar el desenvolupament de software de manera eficient i col·laborativa. El teu objectiu serà:
+
 - Garantir la traçabilitat del codi, registrant canvis i decisions de manera clara.
 - Treballar en equip amb GitHub, compartint i revisant codi de forma ordenada.
 - Integrar canvis sense errors, resolent conflictes i aplicant fluxos de treball estructurats.
