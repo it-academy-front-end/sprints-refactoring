@@ -140,7 +140,7 @@ Planificar el desenvolupament d'una funcionalitat front-end seguint metodologia 
      4. Captura de pantalla del codi més complex (ex: funció de filtrat).  
 6. **Bonus track**: Repeteix l'exercici per la següent història d'usuari:
 
-*"Com a usuari registrat, vull poder canviar la meva contrasenya perquè pugui mantenir el meu compte segur."*
+   **_"Com a usuari registrat, vull poder canviar la meva contrasenya perquè pugui mantenir el meu compte segur."_**
 
 ### Autoevaluació
 - [ ] Els Criteris d'Acceptació han de ser verificables (ex: "redirecció automàtica", no "registre ràpid").  
