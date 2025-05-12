@@ -26,7 +26,7 @@ Realitzar un anàlisi complet d'una història d'usuari, definint els requisits i
 ## Hitòria d'usuari a analitzar
 
 *"Com a usuari registrat, vull poder canviar la meva contrasenya perquè pugui mantenir el meu compte segur."*
-
+istòries d'us
 ## Rúbrica d'Avaluació
 
 | Criteris d'Assoliment           | Notable (7-8)                              | Excel·lent (9-10)                                      |

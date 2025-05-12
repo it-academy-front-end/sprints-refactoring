@@ -93,10 +93,9 @@ Manifest Àgil, Extreme Programming (XP), Pair Programming, Test Driven Developm
 ### Context
 Treballaràs amb la següent història d'usuari:
 
-*"Com a usuari de la botiga online, vull poder filtrar productes per categoria i preu per trobar ràpidament el que busco."*  
+*"*"Com a usuari de la botiga online, vull poder registrar-me amb el meu correu electrònic i contrasenya per crear un compte."*  
 
-
-### Objectius d'aprenantatge
+### Objectius d'aprenentatge
 Planificar el desenvolupament d'una funcionalitat front-end seguint metodologia àgil: des de la història d'usuari fins al tauler Kanban prioritzat.  
 
 
@@ -104,33 +103,34 @@ Planificar el desenvolupament d'una funcionalitat front-end seguint metodologia 
 1. **Definir Criteris d'Acceptació**  
    - Llista 3-5 condicions **mesurables** que la funcionalitat ha de complir.  
    *Exemple*:  
-   - [ ] Els filtres es mostren en un panel lateral amb checkbox per categories (mòbils, ordinadors...) i un slider per preu.  
-   - [ ] En aplicar filtres, la llista de productes s'actualitza sense recarregar la pàgina.  
+   - [ ] Es validen en temps real que l'email tingui un format vàlid i que las contrasenyes siguin coincidents.  
 
 2. **Escenaris de Prova amb Gherkin**  
    - Escriu 2 escenaris en sintaxi `Donat/Quan/Llavors` per validar els criteris.  
    *Exemple*:  
    ```gherkin  
-   Escenari: Filtrar per categoria  
-     Donat que estic a la pàgina de productes  
-     Quan selecciono la categoria "Mòbils"  
-     Llavors només es mostren productes amb la categoria "Mòbils".  
+   Escenari: Registre exitós  
+      Donat que estic a la pàgina de registre  
+      Quan omplo "email@exemple.com" al camp email  
+      I escric "P@ssw0rd" als camps de contrasenya i confirmació  
+      I clico "Registrar-me"  
+      Llavors veig el missatge "Compte creat. Verifica el teu correu electrònic."  
+      I sóc redirigit a /verifica-correu   
    ```  
 
 3. **Desglossament de Tasques**  
    - Divideix la història en **tasques tècniques front-end** específiques:  
      *Exemple*:  
-     - Maquetar HTML/CSS del panel de filtres.  
-     - Implementar lògica JavaScript per capturar seleccions d'usuari.  
-     - Connectar amb API fictícia per obtenir productes filtrades.  
+     - - Maquetar formulari de registre amb HTML/CSS (camps, botó, missatges d'error).  
 
 4. **Organització en Tauler Kanban**  
    - Crea un tauler a **Trello** amb aquestes columnes:  
      - *Backlog* | *To Do* | *Doing* | *Test* | *Done*  
    - Afegeix les tasques com a targetes i prioritza amb **MoSCoW**:  
-     - 🟢 **Must-Have**: Maquetar filtres (sense funcionalitat).  
-     - 🟡 **Should-Have**: Slider de preus funcional.  
-     - 🔵 **Could-Have**: Animació en aplicar filtres.  
+     - 🟢 **Must-Have**: Formulari bàsic funcional + validació inicial en enviar. 
+     - 🟡 **Should-Have**: Validació en temps real (errors es mostren mentre l'usuari escriu).  
+     - 🔵 **Could-Have**: Indicador de força de la contrasenya (barra de progrés).  
+     - 🔴 **Won't-Have**: Registre amb xarxes socials (Facebook/Google).  
 
 5. **Documentació**  
    - Crea una pàgina a **Notion** que inclogui:  
@@ -138,14 +138,17 @@ Planificar el desenvolupament d'una funcionalitat front-end seguint metodologia 
      2. Criteris d'acceptació i escenaris Gherkin.  
      3. Enllaç al tauler Kanban.  
      4. Captura de pantalla del codi més complex (ex: funció de filtrat).  
+6. **Bonus track**: Repeteix l'exercici per la següent història d'usuari:
+
+*"Com a usuari registrat, vull poder canviar la meva contrasenya perquè pugui mantenir el meu compte segur."*
 
 ### Autoevaluació
-- [ ] Els Criteris d'Acceptació han de ser verificables (ex: "slider funcional", no "filtres bonics").  
+- [ ] Els Criteris d'Acceptació han de ser verificables (ex: "redirecció automàtica", no "registre ràpid").  
 - [ ] Els enunciats Gherkin:  Mínim 2 escenaris amb estructura clara.  
 - [ ] Al Tauler Kanban las tasques estan prioritzades amb etiquetes MoSCoW i distribuïdes en columnes.  
 - [ ] Has documentat el procés de presa de decisions (ex: per què el slider és *Should-Have*).   
 
-### Lliuraments  
+## Lliuraments  
 
 - Els apunts digitals propis del contingut treballat.  
 - L'exercici als apunts.
