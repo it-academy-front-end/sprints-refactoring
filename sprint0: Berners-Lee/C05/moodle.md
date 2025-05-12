@@ -6,30 +6,30 @@ La durada estimada d'aquest mòdul és de **4 hores**.
 
 ## Objectius d'Aprenentatge
 
-1. **Dominar els tipus de diagrames clau i el seu propòsit**:  
+1. **Dominar els tipus de diagrames clau i el seu propòsit**
    - Diferenciar **fluxos lògics**, **sitemaps**, **user journeys**, **UML** i **ERD**, entenent quan aplicar cada un (ex: fluxos lògics per relacions frontend-backend, ERD per bases de dades).  
 
-2. **Utilitzar eines de diagramació (visuals i code-first) amb eficàcia**:  
+2. **Utilitzar eines de diagramació (visuals i code-first) amb eficàcia**
    - Practicar amb eines com Lucidchart, Draw.io o Mermaid.js per crear diagrames clars, adaptant-los a l’escala del projecte.  
 
-3. **Aplicar diagrames per estructurar decisions tècniques i d’usuari**:  
-   - **Fluxos lògics**: Definir interaccions entre components del sistema.  
-   - **Sitemaps**: Organitzar jerarquia de continguts i navegació.  
-   - **User journeys/flows**: Anticipar moviments de l’usuari i detectar punts de fricció.  
+3. **Aplicar diagrames per estructurar decisions tècniques i d’usuari**
+   - **Fluxos lògics**: Definir interaccions entre components del sistema
+   - **Sitemaps**: Organitzar jerarquia de continguts i navegació
+   - **User journeys/flows**: Anticipar moviments de l’usuari i detectar punts de fricció
 
-4. **Validar i millorar el disseny abans del codi**:  
+4. **Validar i millorar el disseny abans del codi**
    - Usar diagrames com a filtres per identificar errors (funcionalitats incompatibles, fluxos trencats) i assegurar coherència entre totes les parts (ex: alinear user journeys amb l’arquitectura tècnica).  
 
-5. **Integrar diagrames en la documentació tècnica**:  
+5. **Integrar diagrames en la documentació tècnica**
    - Vincular diagrames amb especificacions escrites per facilitar la comunicació entre perfils tècnics i no tècnics.  
 
-6. **Seleccionar críticament el tipus de diagrama segons la fase del projecte**:  
+6. **Seleccionar críticament el tipus de diagrama segons la fase del projecte**
    - Decidir si es requereix un **sitemap** (fase d’arquitectura), un **diagrama de seqüència** (fase de desenvolupament) o un **cas d’ús UML** (fase d’anàlisi).  
 
-7. **Col·laborar mitjançant diagrames compartits**:  
+7. **Col·laborar mitjançant diagrames compartits**
    - Utilitzar diagrames com a base per a discussions en equip i per validar decisions amb stakeholders.  
 
-**Resultat esperat**: Al finalitzar, seràs capaç de **transformar requeriments funcionals** en diagrames estructurats que guiïn el desenvolupament d’una aplicació, millorant-ne la planificació i reduint errors en fases inicials. 🎯  
+**Resultat esperat**: Al finalitzar, seràs capaç de **transformar requeriments funcionals** en diagramestructurats que guiïn el desenvolupament d’una aplicació, millorant-ne la planificació i reduint errors en fases inicials. 🎯  
 
 
 ## Metodologia  
@@ -88,37 +88,37 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes*
 Una aplicació web permet registrar usuaris mitjançant un formulari (email i contrasenya). El flux inclou validacions, errors i interaccions entre components.  
 Crear un **diagrama de flux** que representi el procés complet de registre d'usuari, incloent camins alternatius i punts de decisió.  
 
-### **Objectius d'aprenentatge**  
+### Objectius d'aprenentatge
 1. Representar processos complexes amb diagrames de flux  
 2. Utilitzar eines visuals o code-first per a documentació tècnica  
 3. Identificar punts de fallada i camins alternatius  
 
-### **Passos a seguir**  
+### Passos a seguir
 
 1. **Tria una eina de diagramació**  
-- **Code-first**: Mermaid.js (sintaxi Markdown)  
-- **Visual**: Draw.io, Excalidraw o Lucidchart  
+- **Code-first**: Mermaid.js (sintaxi Markdown
+- **Visual**: Draw.io, Excalidraw o Lucidchar
 
 2. **Crea el diagrama de flux**  
-   -  **Elements obligatoris**:  
-      - **Nodes**:  
+   -  **Elements obligatoris**
+      - **Nodes**
       - Inici/Fi  
       - Operacions (ex: "Usuari omple formulari")  
       - Decisions (ex: "Dades vàlides?")  
       - Connexions amb fletxes  
-      - **Camins**:  
+      - **Camins**
       - Flux principal (registre exitós)  
       - 2 camins alternatius (ex: email invàlid, error de connexió)  
 
 3. **Afegir complexitat (Bonus)**  
-- Inclou **3 nivells de validació**: format email, força contrasenya, disponibilitat email  
+- Inclou **3 nivells de validació**: format email, força contrasenya, disponibilitat emai
 - Afegeix un **sistema de reintents** després d'errors  
 
 4. **Documentació**  
 - Integra el diagrama als apunts
 - Explica en 2-3 línies les decisions de disseny més rellevants  
 
-### **Autoevaluació**  
+### Autoevaluació
 - [ ] El diagrama mostra mínim **8 nodes** i **3 decisions**  
 - [ ] Inclou icones o colors per diferenciar tipus de nodes (opcional)  
 - [ ] S'ha validat el renderitzat en l'eula triada  
@@ -134,10 +134,10 @@ Crear un **sitemap** estructurat que representi la jerarquia de pàgines i la na
 
 ### Passos a seguir
 
-1. **Configura Draw.io**:  
+1. **Configura Draw.io**
    - Obre [Draw.io](https://app.diagrams.net/) i tria la plantilla **"Flowchart"** o **"Blank Diagram"**.  
 
-2. **Defineix la jerarquia principal**:  
+2. **Defineix la jerarquia principal**
    - Crea nodes per a les pàgines principals:  
      - **Pàgina d’inici** (`/`)  
      - **Productes** (`/productes`)  
@@ -146,22 +146,22 @@ Crear un **sitemap** estructurat que representi la jerarquia de pàgines i la na
      - **Compte d’usuari** (`/compte`)  
      - **Contacte** (`/contacte`)  
 
-3. **Afegeix subpàgines**:  
+3. **Afegeix subpàgines**
    - Sota **Productes**, inclou:  
      - Detall d’un producte (`/productes/{id}`).  
    - Sota **Categories**, inclou:  
      - Mòbils (`/categories/mobils`), Ordinadors (`/categories/ordinadors`), Accessoris (`/categories/accessoris`).  
 
-4. **Connexions i navegació**:  
+4. **Connexions i navegació**
    - Uneix els nodes amb fletxes per indicar el flux de navegació.  
    - Exemple: *Pàgina d’inici → Productes → Detall del producte*.  
 
-5. **Elements visuals**:  
+5. **Elements visuals**
    - Utilitza **icones** (Draw.io té una llibreria integrada) per diferenciar tipus de pàgines:  
      - 🛒 per la cistella.  
      - 📱 per categories de mòbils.  
 
-6. **Bonus track**:  
+6. **Bonus track**
    - Afegeix notes als nodes per explicar decisions (ex: "La pàgina de contacte inclou formulari i mapa").
 
 7. **Bonus Bonus**  
@@ -170,12 +170,11 @@ Crear un **sitemap** estructurat que representi la jerarquia de pàgines i la na
 
 
 ### Autoevaluació
-- [] El sitemap inclou **com a mínim 2 nivells de jerarquia** (ex: Categories → Subcategories).  
-- [] Les connexions entre pàgines són **lògiques** (ex: No es pot accedir a "Detall producte" sense passar per "Productes").  
-- [] S’han utilitzat **icones o colors** per diferenciar tipus de pàgines (ex: administratives vs. públiques).    
+- [ ] El sitemap inclou **com a mínim 2 nivells de jerarquia** (ex: Categories → Subcategories).  
+- [ ] Les connexions entre pàgines són **lògiques** (ex: No es pot accedir a "Detall producte" sense passar per "Productes").  
+- [ ] S’han utilitzat **icones o colors** per diferenciar tipus de pàgines (ex: administratives vs. públiques).    
 
 ## Lliuraments  
-
 - Els apunts digitals propis del contingut treballat.  
 - Els diagrames incorporats als apunts.
 
