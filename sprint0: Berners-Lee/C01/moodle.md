@@ -52,27 +52,25 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes 
 
 Internet, *World Wide Web*, HTTP/HTTPS, Cau, *Proxy*, CORS, CSRF, *SQL Injection*, XSS, SSH, API REST, GraphQL, *WebSockets*, JWT, OAuth, DNS, URL/URI, *Cookie*, SEO, DevOps, Servidor de desenvolupament, Servidor de preproducció (*staging*), Servidor de producció, CI/CD, GitHub Actions, Jenkins, Nginx, Apache, Docker, Kubernetes, AWS, Google Cloud, Azure, Vercel, Netlify, SPA, PWA, SSR/Isomòrfiques, Aplicacions en temps real, Microserveis, *Serverless*, IA generativa, Models d'IA, Assistents virtuals, Aplicacions híbrides, Git/GitHub/GitLab/BitBucket, A11Y, ARIA, Disseny responsiu (*Responsive Design*), *Mobile First*, *Media Queries*, HTML5, CSS3, DOM, SASS, JavaScript, ECMAScript, TypeScript, *Web Components*, *Web Assembly*, *Frontend*, *Backend*, Sistema de gestió de bases de dades, Base de dades relacional, NoSQL, SQL, JOINs, Índexs, ORMs, Test unitari, Test e2e, Microserveis, Arquitectura de *software*, Rendiment web (*Web Performance*), *Lazy Loading*, CDN, Lighthouse, UX/UI, Àgil (*Agile*), Scrum, Terminal/CLI.  
 
-## Pràctica (1 h)  
-Aquí podràs posar en pràctica allò après al llarg de la unitat, ànim!
+## Exercici pràctic 1: Anàlisi d'aplicacions (1 h)
 
-### Exercici 1
- **Fes una anàlisi** de 6 aplicacions web diferents de dues categories: webs comercials i aplicacions. Per a cada aplicació web, hauràs de:  
-1. Identificar-ne la tipologia.  
-2. Justificar-ho amb evidències tècniques.  
-3. Documentar-ne les característiques principals.  
-
-### Recursos  
-
-1. **Aplicacions a analitzar:**  
-
+### Context
+ **Fes una anàlisi** de 6 aplicacions web diferents de dues categories: webs comercials i aplicacions. 
 | Grup | Exemples |  
 |------|----------|  
 | **Grup 1: Webs comercials** | - Amazon.com<br>- Blog personal WordPress<br>- Portafoli estàtic |  
 | **Grup 2: Aplicacions web** | - Airbnb<br>- Twitter<br>- Pàgina de documentació de MDN |  
 
-2. **Exemple d'estructura de l'anàlisi**  
+Per a cada aplicació web, hauràs de:  
+1. Identificar-ne la tipologia.  
+2. Justificar-ho amb evidències tècniques.  
+3. Documentar-ne les característiques principals.  
 
-Per a cada aplicació, completa la següent taula:  
+### Objectius d'aprenentatge
+- Relacionar els conceptes teòrics amb l'aplicació pràctica.
+
+### Passos a seguir
+1. Per a cada aplicació, completa la següent taula:  
 
 **Nom de l'aplicació**  
 
