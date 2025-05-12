@@ -6,7 +6,7 @@ vite, package.json) i Vite.
 
 La durada estimada d'aquest mòdul és de **3 hores**.  
 
-## Objectius d'aprenentatge  
+### Objectius d'aprenentatge  
 
 1. Conèixer els diferents components de la interfície d'usuari i personalitzar-la segons les teves preferències.
 2. Escriure codi i utilitzar les funcions d'edició integrades, com IntelliSense i Code Actions, i aprendre sobre l'execució i depuració de codi.
@@ -20,7 +20,7 @@ La durada estimada d'aquest mòdul és de **3 hores**.
 10. Configurar l'entorn de producció en Vite.
 
 
-## Metodologia  
+### Metodologia  
 El mòdul consta de tres apartats diferenciats: teòric, pràctic i qüestionari d'autoconeixement.  
 
 - Per a la teoria, hauràs d'**elaborar** uns apunts i lliurar la **URL** al final d'aquesta unitat.  

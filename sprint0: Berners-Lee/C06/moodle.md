@@ -4,7 +4,7 @@ Com a part d’un equip àgil, **traduïxes necessitats del client** en tasques 
 
 La durada estimada d'aquest mòdul és de **3 hores**.  
 
-## Objectius d'Aprenentatge
+### Objectius d'Aprenentatge
 
 1. **Entendre els principis bàsics de l’entorn àgil**  
 - Conèixer els **4 valors del Manifest Àgil** i com s’apliquen al desenvolupament front-end (ex: col·laboració amb dissenyadors).  
@@ -25,7 +25,7 @@ La durada estimada d'aquest mòdul és de **3 hores**.
 5. **Col·laborar amb eines de desenvolupament**  
 - Practicar **pair programming** per a resoldre errors de maquetació o lògica.  
 
-## Metodologia  
+### Metodologia  
 El mòdul consta de tres apartats diferenciats: teòric, pràctic i qüestionari d'autoconeixement.  
 
 - Per a la teoria, hauràs d'**elaborar** uns apunts i lliurar la **URL** al final d'aquesta unitat.  

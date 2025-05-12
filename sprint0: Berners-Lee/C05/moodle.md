@@ -4,7 +4,7 @@ En aquesta unitat treballaràs el procés d'anàlisi i disseny. Abans de posar-t
 
 La durada estimada d'aquest mòdul és de **4 hores**.  
 
-## Objectius d'Aprenentatge
+### Objectius d'Aprenentatge
 
 1. **Dominar els tipus de diagrames clau i el seu propòsit**
    - Diferenciar **fluxos lògics**, **sitemaps**, **user journeys**, **UML** i **ERD**, entenent quan aplicar cada un (ex: fluxos lògics per relacions frontend-backend, ERD per bases de dades).  
@@ -32,7 +32,7 @@ La durada estimada d'aquest mòdul és de **4 hores**.
 **Resultat esperat**: Al finalitzar, seràs capaç de **transformar requeriments funcionals** en diagramestructurats que guiïn el desenvolupament d’una aplicació, millorant-ne la planificació i reduint errors en fases inicials. 🎯  
 
 
-## Metodologia  
+### Metodologia  
 El mòdul consta de tres apartats diferenciats: teòric, pràctic i qüestionari d'autoconeixement.  
 
 - Per a la teoria, hauràs d'**elaborar** uns apunts i lliurar la **URL** al final d'aquesta unitat.  

@@ -13,7 +13,7 @@ La durada estimada d'aquest mòdul és de **4 hores**.
 
 Comencem.
 
-## Objectius d'aprenentatge  
+### Objectius d'aprenentatge  
 
 1. **Diferenciar Git de GitHub**: Entendre les diferències fonamentals entre Git (sistema de control de versions) i GitHub (plataforma de col·laboració).
 2. **Instal·lar i configurar Git**: Configurar nom d'usuari, correu electrònic i editor per defecte a l'entorn local.
@@ -33,7 +33,7 @@ Comencem.
 16. **Revisar i aprovar pull requests**: Analitzar canvis, deixar comentaris i integrar sol·licituds d'incorporació en projectes col·laboratius.
 
 
-## Metodologia  
+### Metodologia  
 El mòdul consta de tres apartats diferenciats: teòric, pràctic i qüestionari d'autoconeixement.  
 
 - Per a la teoria, hauràs d'**elaborar** uns apunts i lliurar la **URL** al final d'aquesta unitat.  
