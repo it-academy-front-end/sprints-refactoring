@@ -19,7 +19,7 @@ Comencem.
 2. **Instal·lar i configurar Git**: Configurar nom d'usuari, correu electrònic i editor per defecte a l'entorn local.
 3. **Crear i gestionar repositoris locals**:Inicialitzar un repositori local amb `git init` i entendre l'estructura bàsica.
 4. **Identificar els estats dels canvis a Git**: Distingir entre canvis modificats (working directory), preparats (staging area) i versionats (commits).
-5. **Utilitzar comandes bàsiques d'inspecció**: Emprar `git status` per verificar l'estat actual i `git log` per revisar l'historial de commits.
+5. **Utilitzar ordres bàsiques d'inspecció**: Emprar `git status` per verificar l'estat actual i `git log` per revisar l'historial de commits.
 6. **Fer commits efectius**: Crear commits amb missatges descriptius seguint l'estàndard Conventional Commits (ex: feat:, fix:).
 7. **Vincular repositoris locals i remots**: Configurar una connexió entre un repositori local i un remot a GitHub amb git remote add.
 8. **Clonar repositoris remots**: Duplicar un repositori remot en local amb `git clone`.
@@ -70,10 +70,10 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes*
 ## Exercici pràctic 1: Git-it-electron (1 h)  
 
 ### Context
-Aquesta aplicació inclou reptes per aprendre Git i GitHub utilitzant l’entorn real de Git i GitHub, no emuladors. Aprendràs a utilitzar la línia de comandes, que és increïble (i no tan terrorífica), i GitHub. Això vol dir que, quan completis tots els reptes, tindràs repositoris reals al teu compte de GitHub i quadrats verds al teu gràfic de contribucions. 
+Aquesta aplicació inclou reptes per aprendre Git i GitHub utilitzant l’entorn real de Git i GitHub, no emuladors. Aprendràs a utilitzar la línia de ordres, que és increïble (i no tan terrorífica), i GitHub. Això vol dir que, quan completis tots els reptes, tindràs repositoris reals al teu compte de GitHub i quadrats verds al teu gràfic de contribucions. 
 
 ### Objectius d’aprenentatge
-- Comandes bàsics de Git.
+- ordres bàsics de Git.
 - Treballar amb branques de Git.
 - Fer pull-request a GitHub.
 
@@ -85,7 +85,7 @@ Aquesta aplicació inclou reptes per aprendre Git i GitHub utilitzant l’entorn
 ### Context
 Aprendre a gestionar el treball en **branques de Git** i la metodologia **Git-Flow** facilita el treball col·laboratiu en projectes de desenvolupament d'aplicacions. Aquest exercici **reprodueix** un escenari de treball en equip, per la qual cosa **has de col·laborar amb un company/a**.  
 
-Durant l'activitat, **haureu de buscar les comandes adequades** per resoldre cada pas de l'exercici.
+Durant l'activitat, **haureu de buscar les ordres adequades** per resoldre cada pas de l'exercici.
 
 Al final haurás de completar el questionari de resolució de l'exercici.
 
@@ -94,7 +94,7 @@ Al final haurás de completar el questionari de resolució de l'exercici.
 
 ### Passos a seguir
 
-Aquest taller s’ha de fer **en parelles**. Trieu qui serà la **Persona 1** i la **Persona 2**.  
+Aquest exercici s’ha de fer **en parelles**. Trieu qui serà la **Persona 1** i la **Persona 2**.  
 
 #### Nivell 1: Obligatori
 1. Les dues persones obriu la **Terminal** al vostre ordinador i trieu la ruta on voleu desar el projecte.  
@@ -139,15 +139,15 @@ Aquest taller s’ha de fer **en parelles**. Trieu qui serà la **Persona 1** i 
 18. Repetir fins que totes les branques estiguin fusionades.  
 19. **BONUS**: ¿Has llegit sobre els fitxers `.gitignore`? 🧠  
 
-### Lliuraments  
+## Lliuraments  
 
 - Els apunts digitals propis del contingut treballat.  
-- Entrega a la plataforma el llistat de punts de l'exercici 2 amb les comandes que has fet servir a cada pas.
+- Entrega a la plataforma el llistat de punts de l'exercici 2 amb les ordres que has fet servir a cada pas.
 
 ## Autoevaluació dels coneixements (0,5 h)  
 
 Respon **aquestes preguntes** als teus apunts per fixar coneixements i identificar dubtes:  
 
 1. Saps distinguir git de github?
-2. Quins comandes bàsiques fas servir per treballar amb git?
-3. Saps fer pull-requests i revisar-los
+2. Quins ordres bàsiques fas servir per treballar amb git?
+3. Saps fer _pull-requests_ i revisar-los
