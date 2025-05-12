@@ -85,37 +85,44 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes*
 ## Exercici pràctic 1: Registre d'usuaris (1 h)  
 
 ### Context
-Imagina una aplicació web on l’usuari omple un formulari de registre (email i contrasenya). El frontend envia aquestes dades al backend, que valida la informació i retorna una resposta (èxit o error).  
+Una aplicació web permet registrar usuaris mitjançant un formulari (email i contrasenya). El flux inclou validacions, errors i interaccions entre components.  
+Crear un **diagrama de flux** que representi el procés complet de registre d'usuari, incloent camins alternatius i punts de decisió.  
 
-### Objectius d'aprenantatge
-Crear un **diagrama de seqüència** amb Mermaid.js que representi la interacció entre el frontend i el backend durant un procés de registre d’usuari.  
+### **Objectius d'aprenentatge**  
+1. Representar processos complexes amb diagrames de flux  
+2. Utilitzar eines visuals o code-first per a documentació tècnica  
+3. Identificar punts de fallada i camins alternatius  
 
-### Passos a seguir
-1. **Configura Mermaid.js**:  
-   - Obre l’[editor en línia de Mermaid](https://mermaid-js.github.io/mermaid-live-editor/) o configura Mermaid al teu entorn local (ex: VS Code amb extensió de Markdown).  
+### **Passos a seguir**  
 
-2. **Codi del diagrama**:  
-   - Escriu la sintaxi de Mermaid per a un **diagrama de seqüència** que inclogui:  
-     - **Actors**: Usuari, Frontend, Backend, Base de dades.  
-     - **Passos**:  
-       - L’usuari introdueix dades i fa clic a "Registrar-se".  
-       - El frontend envia les dades al backend.  
-       - El backend valida l’email (ex: format correcte) i la contrasenya (ex: longitud mínima).  
-       - Si tot és correcte, el backend guarda les dades a la base de dades i retorna un missatge d’èxit.  
-       - Si hi ha errors, el backend retorna un missatge d’error específic.  
+1. **Tria una eina de diagramació**  
+- **Code-first**: Mermaid.js (sintaxi Markdown)  
+- **Visual**: Draw.io, Excalidraw o Lucidchart  
 
-3. **Bonus track**:  
-   - Afegeix **notes** als passos crítics (ex: "Validar email amb regex").  
-   - Inclou un **alt flux** per a un error de connexió amb la base de dades.  
-4. **Bonus Bonus**
+2. **Crea el diagrama de flux**  
+   -  **Elements obligatoris**:  
+      - **Nodes**:  
+      - Inici/Fi  
+      - Operacions (ex: "Usuari omple formulari")  
+      - Decisions (ex: "Dades vàlides?")  
+      - Connexions amb fletxes  
+      - **Camins**:  
+      - Flux principal (registre exitós)  
+      - 2 camins alternatius (ex: email invàlid, error de connexió)  
 
-- **Integra el diagrama** en un document Markdown a GitHub i comparteix l’enllaç.  
-- **Afegeix un tercer camí** per a un error de xarxa (ex: timeout).  
+3. **Afegir complexitat (Bonus)**  
+- Inclou **3 nivells de validació**: format email, força contrasenya, disponibilitat email  
+- Afegeix un **sistema de reintents** després d'errors  
 
-### Autoevaluació
-- [] El diagrama es renderitza sense errors a l’editor de Mermaid.  
-- [] Mostra **com mínim 4 participants** i **2 camins alternatius** (èxit/error).  
-- [] Inclou **missatges amb descripcions tècniques** (ex: `POST /api/register`).  
+4. **Documentació**  
+- Integra el diagrama als apunts
+- Explica en 2-3 línies les decisions de disseny més rellevants  
+
+### **Autoevaluació**  
+- [ ] El diagrama mostra mínim **8 nodes** i **3 decisions**  
+- [ ] Inclou icones o colors per diferenciar tipus de nodes (opcional)  
+- [ ] S'ha validat el renderitzat en l'eula triada  
+- [ ] La documentació explica com milloraria el flux amb més temps  
 
 ## Exercici pràctic 2: Botiga online (1 h)  
 
@@ -167,9 +174,10 @@ Crear un **sitemap** estructurat que representi la jerarquia de pàgines i la na
 - [] Les connexions entre pàgines són **lògiques** (ex: No es pot accedir a "Detall producte" sense passar per "Productes").  
 - [] S’han utilitzat **icones o colors** per diferenciar tipus de pàgines (ex: administratives vs. públiques).    
 
-### Lliuraments  
+## Lliuraments  
 
 - Els apunts digitals propis del contingut treballat.  
+- Els diagrames incorporats als apunts.
 
 ## Autoevaluació dels coneixements (0,5 h)  
 
