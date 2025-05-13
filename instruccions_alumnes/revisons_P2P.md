@@ -1,121 +1,121 @@
-# Guía para Code Review y Feedback entre Estudiantes
+# Guia per al Code Review i el Feedback entre Estudiants
 
-## Introducción
+## Introducció
 
-Esta guía tiene como objetivo proporcionar un proceso estructurado y efectivo para hacer code review y dar feedback  entre compañeros de clase (parejas).
+Aquesta guia té com a objectiu proporcionar un procés estructurat i efectiu per fer Code Review i donar Feedback entre companys/es de classe (parelles).
 
-**¿Por qué es importante?**
-- Aprendizaje activo: Descubres nuevas soluciones y buenas prácticas.
-- Calidad del código: Detectas errores antes y mejoras la mantenibilidad.
-- Habilidad profesional: El code review es esencial en entornos laborales. 
+**Per què és important?**
+- Aprenentatge actiu: Descobreixes noves solucions i bones pràctiques.
+- Qualitat del codi: Detectes errors abans i millores la mantenibilitat.
+- Habilitat professional: El Code Review és essencial en entorns laborals. 
 
-## ¿Cómo Realizar una Code Review?
+## Com Realitzar un Code Review?
 
-### 1. Preparación
+### 1. Preparació
 
-1. **Descarga y Prueba:** Descarga el proyecto del compañero y pruébalo en tu entorno local.
+1. **Descarrega i Prova:** Descarrega el projecte de la companya i prova'l al teu entorn local.
    
-2. **Creación de Issue:** Crea una **issue** en el repositorio de la dueña del proyecto con el título:  
-- `Code review Sprint [Número] - [Nombre-revisa]`. Esto facilita la organización y seguimiento del feedback.
+2. **Creació d’Issue:** Crea una **issue** al repositori de la propietària del projecte amb el títol:  
+- `Code Review Sprint [Número] - [Nom-revisa]`. Això facilita l'organització i el seguiment del Feedback.
 
-### 2. Métodos de Revisión
+### 2. Mètodes de Revisió
 
-1. **Revisión Asíncrona (GitHub Issues)**
-- Sigue los **criterios técnicos de revisión** detallados más abajo.
-- Documenta tus hallazgos en la issue usando el **formato de documentación de una code review** detallado mas abajo.
+1. **Revisió Asíncrona (GitHub Issues)**
+- Segueix els **criteris tècnics de revisió** detallats més avall.
+- Documenta els teus resultats a la issue utilitzant el **format de documentació d’un Code Review** detallat més avall.
  
-2. **Revisión en Parelles (Síncrona/Presencial)**
-- La revisión se realiza de manera síncrona, presencialmente y por parejas.
-- El **autor** explica: el objetivo de la solución, las decisiones técnicas tomadas, los puntos clave a considerar.
-- El **revisor**: lee el código detenidamente, identifica posibles mejoras, plantea dudas y propuestas de cambio y documenta sus hallazgos en la issue usando el **formato de documentación de una code review** detallado mas abajo.
+2. **Revisió en Parelles (Síncrona/Presencial)**
+- La revisió es fa de manera síncrona, presencialment i per parelles.
+- L’**autora** explica: l’objectiu de la solució, les decisions tècniques preses, els punts clau a considerar.
+- La **revisora**: llegeix el codi amb deteniment, identifica possibles millores, planteja dubtes i propostes de canvi, i documenta els seus resultats a la issue utilitzant el **format de documentació d’un Code Review** detallat més avall.
 
-## Criterios Ténicos a Observar en una Code Review
-1. **Cumplimiento del Enunciado**
-- Verificar que la solución cumple todos los requisitos especificados.
-- Asegurar que las funcionalidades obligatorias están implementadas correctamente.
-- Comprobar que los casos especiales y posibles errores se gestionan adecuadamente.
-- Revisar que el código está escrito en inglés: nombres de clases, métodos, variables y comentarios.
+## Criteris Tècnics a Observar en un Code Review
+1. **Compliment de l’Enunciat**
+- Verificar que la solució compleix tots els requisits especificats.
+- Assegurar que les funcionalitats obligatòries estan implementades correctament.
+- Comprovar que els casos especials i possibles errors es gestionen adequadament.
+- Revisar que el codi està escrit en anglès: noms de classes, mètodes, variables i comentaris.
 
-2. **Calidad del código**
-    **Formato y Convenciones**
-    - Mantener una indentación coherente según los estándares del lenguaje.
-    - Usar correctamente espacios y saltos de línea en estructuras de control.
-    - Escribir comentarios breves y claros solo cuando sean necesarios.
-    - Mantener una organización consistente en todos los archivos del proyecto.
+2. **Qualitat del Codi**
+    **Format i Convencions**
+    - Mantenir una indentació coherent segons els estàndards del llenguatge.
+    - Utilitzar correctament espais i salts de línia en estructures de control.
+    - Escriure comentaris breus i clars només quan siguin necessaris.
+    - Mantenir una organització consistent a tots els fitxers del projecte.
 
     **Nomenclatura**
-    - Usar nombres descriptivos para clases, métodos y variables.
-    - Evitar abreviaturas poco claras o nombres genéricos.
-    - Seguir las convenciones de nomenclatura establecidas en el proyecto.
-    - Emplear nombres que indiquen la función o responsabilidad de cada elemento.
+    - Fer servir noms descriptius per a classes, mètodes i variables.
+    - Evitar abreviatures poc clares o noms genèrics.
+    - Seguir les convencions de nomenclatura establertes en el projecte.
+    - Utilitzar noms que indiquin la funció o responsabilitat de cada element.
 
-    **Métodos Cortos con Única Responsabilidad**
-    - Verificar que los métodos y clases sean concisos y no hagan demasiadas cosas.
-    - Aplicar el principio de responsabilidad única para mejorar legibilidad y mantenimiento.
-    - Considerar dividir métodos complejos en otros más específicos cuando sea necesario.
+    **Mètodes Curts amb Única Responsabilitat**
+    - Verificar que els mètodes i classes siguin concisos i no facin massa coses.
+    - Aplicar el principi de responsabilitat única per millorar llegibilitat i manteniment.
+    - Considerar dividir mètodes complexos en altres més específics quan calgui.
 
-    **Control de la Complejidad**
-    - Reducir condicionales y bucles anidados innecesarios.
-    - Usar estrategias como early returns o fail fast para simplificar la lógica.
-    - Evitar el uso excesivo de variables temporales o flags que compliquen el flujo.
+    **Control de la Complexitat**
+    - Reduir condicionals i bucles imbricats innecessaris.
+    - Utilitzar estratègies com `early returns` o `fail fast` per simplificar la lògica.
+    - Evitar l'ús excessiu de variables temporals o `flags` que compliquin el flux.
 
-    **Estructuras de Datos**
-    - Elegir las colecciones adecuadas para cada tipo de dato.
-    - Evitar iteraciones o modificaciones ineficientes de listas y conjuntos.
-    - Considerar construcciones del lenguaje que puedan simplificar la lógica.
+    **Estructures de Dades**
+    - Escollir les col·leccions adequades per a cada tipus de dada.
+    - Evitar iteracions o modificacions ineficients de llistes i conjunts.
+    - Considerar construccions del llenguatge que puguin simplificar la lògica.
 
-3. **Robustez y Manejo de Errores**
-- Garantizar que las excepciones se manejan correctamente.
-- Evitar capturas demasiado genéricas, priorizando manejo específico de errores.
-- Minimizar el uso de valores nulos, empleando alternativas que mejoren el control.
-- Asegurar que no hay errores que queden sin tratamiento o notificación.
+3. **Robustesa i Gestió d'Errors**
+- Garantir que les excepcions es gestionen correctament.
+- Evitar captures massa genèriques, prioritzant la gestió específica d'errors.
+- Minimitzar l’ús de valors nuls, utilitzant alternatives que millorin el control.
+- Assegurar que no hi ha errors que quedin sense tractament o notificació.
 
-4. **Estructura del Proyecto**
-- Verificar que las clases están organizadas coherentemente en paquetes.
-- Comprobar que los archivos tienen nombres apropiados que reflejen su propósito.
-- Asegurar que las dependencias están bien gestionadas sin imports innecesarios.
+4. **Estructura del Projecte**
+- Verificar que les classes estan organitzades coherentment en paquets.
+- Comprovar que els fitxers tenen noms apropiats que reflecteixin el seu propòsit.
+- Assegurar que les dependències estan ben gestionades i sense imports innecessaris.
 
-    **Archivo  .gitignore**
-    - Incluir archivos que no deben estar en el repositorio (ej: de compilación).
-    - Revisar que no se exponen secretos ni datos sensibles.
+    **Fitxer `.gitignore`**
+    - Incloure fitxers que no han d’estar al repositori (ex: de compilació).
+    - Revisar que no s’exposen secrets ni dades sensibles.
 
-    **Archivo README.md** confirmar que incluye:
-    - Descripción y propósito del proyecto.
-    - Tecnologías utilizadas.
-    - Instrucciones claras para configuración y ejecución.
-    - Capturas de pantalla o demos cuando sea relevante.
+    **Fitxer `README.md`** confirmar que inclou:
+    - Descripció i propòsit del projecte.
+    - Tecnologies utilitzades.
+    - Instruccions clares per a la configuració i execució.
+    - Captures de pantalla o demos quan sigui rellevant.
 
-## ¿Cómo Dar Feedback Efectivo?
-Una buena revisión no solo señala errores, sino que inspira mejoras y celebra los aciertos.
-¿Listos para convertiros en expertos en code review? ¡A practicar! 💻🔍
+## Com Donar Feedback Efectiu?
+Un bon Code Review no només assenyala errors, sinó que inspira millores i celebra els encerts.  
+Preparades per convertir-vos en expertes en Code Review? A practicar! 💻🔍
 
-1. **Buenas Practicas de una Code review**
-- Mantén una actitud constructiva: se revisa el código, no a la persona.
-- Anota dudas y sugerencias de forma clara y respetuosa.
-- El objetivo es que la revisión sea efectiva y promueva una mejora continua.
+1. **Bones Pràctiques d’un Code Review**
+- Mantingues una actitud constructiva: es revisa el codi, no la persona.
+- Anota dubtes i suggeriments de forma clara i respectuosa.
+- L’objectiu és que la revisió sigui efectiva i promogui una millora contínua.
 
-2. **Estructura tu feedback en 3 partes:**
-- **Fortalezas**: "El sistema de rutas está muy bien organizado."
-- **Áreas de mejora**: "El componente Button podría reutilizarse en otras vistas."
-- **Sugerencias concretas**: "Usa Array.map() para simplificar este loop."
+2. **Estructura el teu Feedback en 3 parts:**
+- **Fortaleses**: "El sistema de rutes està molt ben organitzat."
+- **Àrees de millora**: "El component Button podria reutilitzar-se en altres vistes."
+- **Suggeriments concrets**: "Utilitza `Array.map()` per simplificar aquest loop."
 
-### Formato de documentación de una Code Review
-Puedes usar esta estructura para documentar la Code Review realizada:
+### Format de documentació d’un Code Review
+Pots fer servir aquesta estructura per documentar el Code Review realitzat:
 
     ```html
     ## Code Review Sprint 3 - Manuela Grajales Duque
 
-    ### 🔧 **Funcionalidad**  
-    - ✅ Todo el CRUD funciona según lo esperado.  
-    - ❌ El botón "Guardar" no muestra feedback al usuario cuando falla el API.  
+    ### 🔧 **Funcionalitat**  
+    - ✅ Tot el CRUD funciona segons l’esperat.  
+    - ❌ El botó "Desar" no mostra Feedback a l’usuari quan falla l’API.  
 
     ### 🧹 **Clean Code**  
-    - 👍 Los nombres de variables son muy claros (`userList`, `handleSubmit`).  
-    - 👀 Oportunidad: Elimina el código comentado en `utils/helpers.js`.  
+    - 👍 Els noms de variables són molt clars (`userList`, `handleSubmit`).  
+    - 👀 Oportunitat: Elimina el codi comentat a `utils/helpers.js`.  
 
     ### 📚 **README**  
-    - ✨ Muy completo, pero falta añadir cómo ejecutar los tests.  
+    - ✨ Molt complet, però falta afegir com executar els tests.  
 
     ### 🤝 **Feedback General**  
-    ¡Excelente trabajo! El código es limpio y funcional. Sugiero añadir un spinner durante las llamadas al API para mejorar la UX.   
+    Excel·lent feina! El codi és net i funcional. Suggereixo afegir un spinner durant les crides a l’API per millorar la UX.   
     ```
