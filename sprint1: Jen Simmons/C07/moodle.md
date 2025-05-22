@@ -42,125 +42,160 @@ Per construir la teva base teòrica, hauràs d'investigar **una sèrie de temes*
   - [What's the Difference Between a Wireframe, a Prototype, and a Mockup?](https://careerfoundry.com/en/blog/ux-design/difference-between-wireframes-prototypes-mockups/)
   - [The Definitive Guide: How To Make Your First Wireframe](https://careerfoundry.com/en/blog/ux-design/how-to-create-your-first-wireframe/)
   - [How to Make Wireframes for Mobile Apps and Websites: A Beginner's Guide](https://careerfoundry.com/en/blog/ux-design/wireframing-mobile-apps-websites/)
+  - [Guide to prototyping in Figma](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
+  - [Why Storybook?](https://storybook.js.org/docs/get-started/why-storybook)
   - [A collection of Design Systems for Figma from all over the globe 🌎 backed by code](https://www.designsystemsforfigma.com/?languages=Angular)
   - [Lesson 3: Build your design system](https://help.figma.com/hc/en-us/articles/14548865734679-Lesson-3-Build-your-design-system)
 
-## Exercici pràctic 1: Wireframing The Unquote Game (2 h)  
+## Exercici pràctic 1: Wireframing del joc Farsa de Frases (2 h)  
 
 ### Context
-En aquest projecte, exploraràs tècniques de wireframing mentre dissenyes la pantalla principal d'Unquote, un joc per Android que desafia els usuaris a corregir cites confabulades trobades a Internet! Per què? Perquè «[l]a veritat rarament és pura i mai és simple» - Mickey Mouse. Explica'ls-ho, Mickey!
 
-A _Unquote_, els jugadors han de corregir la desinformació d'Internet; en el nostre cas, la que ve en forma de cites amb imatges.
-Si no coneixes les cites falses a Internet, ves a fer servir _Internet_, i torna a aquesta pàgina quan estiguis preparat! I si encara no n'has vist cap, tenen aquest aspecte:
+En aquest projecte, aprendràs tècniques professionals de wireframing digital mentre dissenyes la pantalla principal de "Farsa de Frases", un joc per Android que desafia els usuaris a corregir cites manipulades trobades a Internet. Per fer aixó utilitzaràs l'eina **Figma** amb plugins especialitzats per a wireframing.
 
 ![](https://content.codecademy.com/courses/Android/sample-quote-image.png)
-
 > Pista: Marilyn Monroe mai va dir això, però Internet segueix sense convençar-se!
 
-Al llarg de diversos projectes, construiràs un joc d'Android que presenta cites falses als usuaris i els demana que identifiquin l'autor real de cada cita, p. ex. qui va dir realment «Fer-ho o no fer-ho, no hi ha intent». La resposta, en aquest cas, és Yoda, post-baby Yoda per ser precisos.
-
-En aquest primer projecte, practicaràs les teves habilitats de [wireframing](https://www.codecademy.com/article/ios-what-is-wireframing) per dissenyar l'única pantalla d'Unquote: la pantalla del joc.
+### Objectius d'aprenentatge
+- Crear wireframes digitals interactius
+- Utilitzar components reutilitzables
+- Aplicar principis d'arquitectura de la informació
+- Optimitzar el flux de treball amb plugins
 
 ### Passos a seguir
 
-1. Agafa paper i un bolígraf, idealment 4 fulls de [paper quadriculat o de puntejat](https://content.codecademy.com/courses/Android/grid-paper.png).  
->Pista  
->Si no tens paper quadriculat/de puntejat o una impressora, paper normal i un regle poden servir! Però si l'any és 2065, els "papers" eren superfícies rectangulars planes fetes de polpa d'arbre. I els "arbres" eren...  
+- Abans de començar, configura Figma per a wireframing:
+  1. Crea un nou fitxer a Figma
+  2. Activa **Layout Grid** amb columnes de 12px de gutter
+  3. Instal·la algun plugin de wireframing (ex. ink wireframe)
+  4. Configura un _frame_ amb mida de dispositiu Android (ex: 412 x 917 px)
 
-2. Defineix la pantalla del joc en alguna part del teu full  
-La cantonada superior-esquerra anirà bé.  
->Pista  
->En wireframing, dividim la nostra aplicació en "pantalles", experiències úniques que serveixen un o més propòsits dins de la nostra aplicació.  
+1. Defineix els **proposits del joc**. Per això has d'imaginar com funciona i definir els seus comportaments. 
+  > Recorda, que _Farsa de Frases_ és un joc de trivia d'una única pantalla, presenta als usuaris cites (la majoria falses) i els demana que identifiquin les fonts reals de la seva saviesa!. L'usuari ha de escollir entre quatre opcions i és puntua els encerts. S'ha de mostrar el progrès del joc i, al final de les preguntes, la puntuació obtinguda.
 
-Per començar, cada pantalla necessita un títol. ![Pista 2](https://content.codecademy.com/courses/Android/Wireframes-Hint2.png)   
+2. Crea el **primer wireframe**: Utilitzant les eines del plugin de wireframing afegeix les decoracions del dispositiu (status bar i action bar).
 
-3. Llista els propòsits de la pantalla del joc sota la seva definició  
-Imagina com funciona aquest joc i defineix els seus comportaments.  
+3. Tria un dels propòsits anteriors i il·lustra-lo al wireframe.  
+  > Un bon lloc per començar és qualsevol propòsit que probablement consumeixi una gran part de la pantalla (presentar una imatge o un conjunt de botons).  
+  >Torna al Pas 3 i revisa els propòsits de la **pantalla del joc**.  
+  > Per exemple, "mostrar el nombre de preguntes restants": com podríem presentar aquesta informació? Com a percentatge? Com a número enter? A la cantonada inferior-dreta? Superior-esquerra? Al mig?  
+4. Repeteix el pas 3 fins que el teu primer wireframe satisfaci tots els propòsits llistats sota la pantalla del joc.  
 
-Recorda, _Unquote_ és un joc de trivia que presenta als usuaris cites (la majoria falses) i els demana que identifiquin les fonts reals de la seva saviesa!  
- 
->Pista  
->Com a única pantalla d'_Unquote_, servirà els següents propòsits:  
-> 
-> *   Presentar cites amb imatges falses  
-> *   Formular una pregunta específica sobre la cita  
-> *   Presentar quatre opcions de resposta múltiple  
-> *   Mostrar el nombre de preguntes restants  
-> *   Finalitzar el joc i mostrar la puntuació  
-> ![Pista 3](https://content.codecademy.com/courses/Android/Wireframes-Hint3.png)  
-
-4. Dibuixa el teu primer quadre per representar el wireframe de la pantalla del joc  
-
->Pista  
->Com és una aplicació mòbil, volem que el quadre del wireframe sigui més alt que ample (en forma de barra de xocolata) i prou gran perquè puguem escriure frases completes a mà dins del quadre si cal. 
-![Pista 4](https://content.codecademy.com/courses/Android/Wireframes-Hint4.png)   
-
-5. Dibuixa decoracions del dispositiu  
-
-Les pantalles Android sovint inclouen elements que consumeixen part de la pantalla. És millor incloure'ls als nostres wireframes per recordar-nos que l'alçada completa no està disponible.  
- 
->Pista  
-  
-> La majoria de dispositius Android tenen dues barres superiors: una barra d'estat (bateria, rellotge, notificacions) i una ActionBar (títol de l'app, icona, botons de menú). Juntes, consumeixen aproximadament el 8-10% de la pantalla.  
-> I molts dispositius Android també tenen una barra de navegació a la part inferior (inici, enrere, botons de gestió de tasques) que consumeix un 5% de l'alçada.  
-> Dibuixa un quadre estret a la part inferior del teu marc, i un quadre una mica més alt a la part superior per identificar aquestes zones com a "no disponibles". ![Pista 5](https://content.codecademy.com/courses/Android/Wireframes-Hint5.png)   
-
-6. Triar un propòsit i il·lustrar-lo al wireframe  
-Un bon lloc per començar és qualsevol propòsit que probablement consumeixi una gran part de la pantalla (presentar una imatge o un conjunt de botons).  
-
->Pista  
->Torna al Pas 3 i revisa els propòsits de la **pantalla del joc**.  
-
-> Per exemple, "mostrar el nombre de preguntes restants": com podríem presentar aquesta informació? Com a percentatge? Com a número enter? A la cantonada inferior-dreta? Superior-esquerra? Al mig?  
-> No et preocupis per fer-ho perfecte, només per posar-ho a la pantalla. El wireframing no ofereix la solució final, però amb pràctica, és un bon punt de partida. 
-![Pista 6](https://static-assets.codecademy.com/Courses/Android/Wireframes-Hint6.png)   
-
-7. Repetir el pas 6  
-
-Repeteix el pas 6 fins que el teu primer wireframe satisfaci tots els propòsits llistats sota la pantalla del joc.  
-  
->Pista  
->Si et quedes sense espai o oblides alguna cosa, comença de nou! De vegades ajuda pensar en cada propòsit com a part d'un tot.  
->Pots dividir la pantalla en quarts o terços, després enfocar-te en una secció cada vegada, decidint com cada part pot satisfer un o més propòsits. 
-![Pista 7](https://content.codecademy.com/courses/Android/Wireframes-Hint7.png)   
-
-8. Repetir passos 4, 5, 6 i 7  
-Repeteix aquests passos per crear un **segon wireframe** que compleixi tots els requisits.  
-
->Pista  
->Si t'encalleixes, prova fer petites modificacions al teu primer wireframe (intercanviant posicions d'elements). N'hi ha prou per satisfer aquest pas. ![Pista 8](https://content.codecademy.com/courses/Android/Wireframes-Hint8.png)   
-
-9. Repetir passos 4, 5, 6 i 7 (un altre cop)  
-
-Crea un **tercer wireframe**. És probable que els tres s'assemblin; això està bé! Però en aquest intent, desafia els teus supòsits sobre com hauria de ser una app. Pensa en elements comuns (una imatge) i imagina girar-la, reduir-la o ocultar-la.  
-  
->Pista  
->Què passaria si donessis més importància al nombre de preguntes restants que a la imatge?  
-
-10. Repetir passos 4, 5, 6 i 7 (un altre cop més)  
-En aquesta última repetició, deixa't portar per la creativitat.  
-
-11. Espera un dia. 24 hores. 1440 minuts... ja ho entens  
-Després de dormir, la teva ment estarà més preparada per veure els wireframes objectivament.  
-  
->Pista  
->Per accelerar el procés, Codecademy recomana Time-Travel™, disponible allà on es ven Ciencia™ de qualitat.  
-
-12. Consolida els teus wireframes en un sol disseny  
-
-Descarta els que no satisfan la teva estètica i fusiona els elements preferits per crear un disseny unificat. Aquest és el teu wireframe final. Exemple: ![Wireframe Final](https://content.codecademy.com/courses/Android/Wireframes-Hint-final.png)  
-
-13. Prepára't per rebre feedback  
-
-El wireframing és un tret a les fosques. Només incorporant feedback d'usuaris sabrem quins elements cal ajustar.  
-
-Aquí tens el nostre wireframe final per a _Unquote_: ![Wireframe Final](https://content.codecademy.com/courses/Android/Wireframes-Hint-final.png) És el teu millor? Si és així, no ens sorprèn: ets increïblement talentós. Guarda els teus millors dissenys: quan acabis el projecte, podràs incorporar-los a la teva versió final.  
+5. Crea **3 versions** alternatives:
+ - Versió jeràrquica (enfoc a imatge gran)
+ - Versió minimalista (enfoc a opcions de resposta)
+ - Versió experimental (layout no convencional)
 
 ### Autoevaluació
-- [ ] Els Criteris d'Acceptació han de ser verificables (ex: "redirecció automàtica", no "registre ràpid").  
-- [ ] Els enunciats Gherkin:  Mínim 2 escenaris amb estructura clara.  
-- [ ] Al Tauler Kanban las tasques estan prioritzades amb etiquetes MoSCoW i distribuïdes en columnes.  
-- [ ] Has documentat el procés de presa de decisions (ex: per què el slider és *Should-Have*).   
+
+1. Quins elements són ESSENCIALS en la configuració inicial de Figma per a aquest exercici?  
+- [ ] Afegir transicions animades  
+- [x] Activar Layout Grid de 12px gutter  
+- [x] Utilitzar mida de frame Android (ex: 412x917px)  
+- [ ] Incloure icones en alta definició  
+- [x] Instal·lar plugin de wireframing (ex: ink wireframe)  
+
+**Retroalimentació**:  
+La configuració correcta requereix:  
+- Grid per alinear components  
+- Mida realista de dispositiu mòbil  
+- Plugins per agilitzar el procés  
+*(Elements opcionals: animacions i icones detallades són per fases posteriors)*  
+
+2. Quin d'aquests elements DEU CONTENDR el wireframe final segons els propòsits del joc?  
+- [x] Barra d'estat (status bar)  
+- [x] 4 opcions de resposta interactives  
+- [ ] Música ambiental amb controls  
+- [x] Indicador de progrés (preguntes restants)  
+- [x] Àrea destacada per a la imatge de la cita  
+- [ ] Enllaços a xarxes socials  
+
+**Retroalimentació**:  
+Elements obligatoris (Objectius):  
+- Components de navegació Android (status/action bar)  
+- Elements funcionals del gameplay (imatge, preguntes, respostes, progrés)  
+*(Elements exclosos: música i xarxes socials no són part del wireframe bàsic)*  
+
+3. Com s'hauria de diferenciar les 3 versions alternatives?  
+- [x] Jeràrquica: Composició visual amb imatge com a element dominant  
+- [ ] Corporativa: Ús de colors de marca institucional  
+- [x] Minimalista: Reducció d'elements als essencials (botons/text)  
+- [x] Experimental: Distribució no convencional (ex: opcions en cercle)  
+- [ ] Internacional: Textos en 3 idiomes simultanis  
+
+**Retroalimentació**:  
+Les versions han d'explorar:  
+- Prioritats visuals diferents (jerarquia vs minimalisme)  
+- Innovació en layouts (experimental)  
+*(Elements no requerits: internacionalització i identitat corporativa són decisions posteriors al wireframing)*  
+
+
+## Exercici pràctic 2: Prototyping with figma - Clon de [PulseApp Pricing](https://pulseapp.com/pricing) (4h)
+
+### Context
+Aquest exercici et permetrà practicar les habilitats bàsiques i intermèdies de disseny i prototipatge amb Figma, recreant una pàgina web real. En clonar la pàgina de preus de PulseApp, aprendràs a estructurar components complexes, aplicar jerarquia visual i implementar interaccions com *hover effects* o navegació entre seccions.
+
+### Objectius d'Aprenentatge
+Al finalitzar l'exercici, seràs capaç de:
+1. Utilitzar eines de disseny vectorial (eines de forma, text, icons) a Figma.
+2. Aplicar **Auto Layout** per crear components responsius.
+3. Prototipar interaccions bàsiques (transicions, overlays, navegació).
+4. Organitzar capes i components de manera eficient.
+5. Col·laborar mitjançant comentaris i versions a Figma.
+
+### Passos a Seguir
+
+1. Anàlisi de la Pàgina Original (15 min)
+- Obre [pulseapp.com/pricing](https://pulseapp.com/pricing) i identifica:
+  - Estructura de la pàgina (header, seccions de preus, FAQ, footer).
+  - Components repetitius (ex: targetes de preus, botons, icons).
+  - Colors, tipografies i espaiat.
+
+2. Configuració del Projecte a Figma (10 min)
+- Crea un nou fitxer a Figma.
+- Defineix un **frame** amb les dimensions de pantalla d'escriptori (1440x900 px).
+- Configura una graella de 12 columnes per al disseny responsive.
+
+3. Disseny de Components (1 h 30 min)
+ a) Header
+  - Recrea el menú de navegació amb logo, enllaços i botó "Sign Up".
+  - **Auto Layout**: Fes que els elements s'adaptin a canvis de text.
+
+ b) Secció de Preus
+  - Dissena 3-4 targetes de preus amb:
+    - Llistes de característiques amb icons (✔️/❌).
+    - Botons amb *hover effect* (canvi de color o ombra).
+    - Utilitza **variants** per als estats actiu/inactiu.
+
+ c) Secció de Comparació de Funcions
+  - Crea una taula amb fileres alternes (fons gris/blanc).
+  - Afegeix icons personalitzats amb eines de vector.
+
+ d) Footer
+  - Reprodueix les columnes d'enllaços i xarxes socials.
+
+4. Prototipatge (30 min)
+- Connecta els botons del menú a les seccions corresponents.
+- Afegeix transicions suaus (**Smart Animate**) en fer clic.
+- Prototipa el *hover* dels botons amb **Interactive Components**.
+
+5. Revisió i Exportació (15 min)
+- Comprova l'aliniament amb **Design System Check** (plugin).
+- Exporta un PDF amb els wireframes i un enllaç al prototip interactiu.
+
+
+### Questionari d'Autoavaluació
+
+1. Per qué has fet servir l'Auto Layout.
+2. Com es crea un hover effect.
+3. Quins components has identificat a la pàgina original.
+4. Com es pot reutilitzar un disseny de botó amb variants per estalviar temps.
+
+
+**✅ Fes clic a "Present" a Figma quan acabis i comparteix el teu prototip amb #FigmaChallenge!**
+
+## Exercici pràctic 3: Mockup Profile d'usuari ITAlumni (2h)
+
 
 ## Lliuraments  
 
@@ -174,8 +209,3 @@ Respon **aquestes preguntes** als teus apunts per fixar coneixements i identific
 1. Conèixes la notació de l'històries d'usuari i els criteris d'aceptació?
 2. Saps desglosar una història en tasques i saps organitzar-les a un tauler Kanban ?
 3. Saps com treballar en pair-programming?
-
-## Exercici pràctic 2: Prototyping with figma (4h)
-
-## Exercici pràctic 3: Mockup Profile d'usuari ITAlumni (2h)
-
