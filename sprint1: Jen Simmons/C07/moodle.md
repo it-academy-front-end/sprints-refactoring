@@ -194,9 +194,6 @@ Al finalitzar l'exercici, seràs capaç de:
 
 **✅ Fes clic a "Present" a Figma quan acabis i comparteix el teu prototip amb #FigmaChallenge!**
 
-## Exercici pràctic 3: Mockup Profile d'usuari ITAlumni (2h)
-
-
 ## Lliuraments  
 
 - Els apunts digitals propis del contingut treballat.  
