@@ -6,7 +6,7 @@ Començarem estructurant el contingut amb HTML semàntic, aprendent a escollir e
 
 La responsivitat serà clau: veurem com ajustar dissenys per a mòbil i escriptori amb estratègies intel·ligents, i com les imatges adaptatives poden estalviar dades als usuaris. Però no només això: integrarem accessibilitat avançada des del primer dia, assegurant contrastos llegibles i navegació fluida per teclat.
 
-La durada estimada d'aquest mòdul és de **12 hores**.  
+La durada estimada d'aquesta unitat és de **4 hores**.  
 
 ### Objectius d'Aprenentatge
 

@@ -4,7 +4,7 @@ En aquesta unitat explorarem com el disseny i el codi s’integren per crear exp
 
 En el món del desenvolupament web, no tot es redueix a escriure línies de codi. Saber interpretar un disseny, reutilitzar components eficientment i mantenir l’estètica consistent és clau per construir productes escalables i fàcils de mantenir. 
 
-La durada estimada d'aquest mòdul és de **12 hores**.  
+La durada estimada d'aquest mòdul és de **4 hores**.  
 
 ### Objectius d'Aprenentatge
 
