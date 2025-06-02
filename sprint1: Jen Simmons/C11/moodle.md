@@ -73,15 +73,28 @@ Aquest exercici et permetrà practicar:
 5. Desenvolupar estratègies per prevenir errors comuns
 
 ### Passos a seguir
-
-1. **Executa el codi** i observa el comportament inesperat
-2. **Identifica 5 errors** diferents al codi:
+1. **Prepara el repositori**: 
+- Clona el repositori
+```bash
+$ git clone https://github.com/IT-Academy-BCN/it-sprint1-number-guessing-game.git  
+$ cd it-sprint1-number-guessing-game
+```
+- Desconnecta el teu repositori del repositori de IT Academy. Utilitza la següent ordre de git:  
+```sh  
+$ git remote rm origin  
+``` 
+- Connecta el teu repositori amb el teu compte de GitHub:  
+```sh  
+$ git remote add origin <URL-del-teu-repositori>  
+```  
+2. **Executa el codi** i observa el comportament inesperat
+3. **Identifica 5 errors** diferents al codi:
    - 2 errors de sintaxi
    - 2 errors lògics
    - 1 error de tipus
-3. **Utilitza la consola** del navegador per obtenir missatges d'error
-4. **Corregeix els errors** un per un, verificant després de cada correcció
-5. **Assegura't** que el joc funcioni amb totes les funcionalitats:
+4. **Utilitza la consola** del navegador per obtenir missatges d'error
+5. **Corregeix els errors** un per un, verificant després de cada correcció
+6. **Assegura't** que el joc funcioni amb totes les funcionalitats:
    - Generació correcta de nombres aleatoris
    - Comptatge d'intents
    - Retroalimentació d'intents (massa alt/baix)
