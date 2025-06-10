@@ -1,1 +1,0 @@
-rúbrica de evaluación de un proyecto

@@ -1,1 +1,0 @@
-https://www.figma.com/design/pZkXuXJxfMEPzX3tyglYhm/ITAlumni?node-id=0-1&p=f&t=9QddyRn1FYVYnYIp-0

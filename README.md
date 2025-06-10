@@ -1,57 +1,30 @@
-# REFACTORIZACIÓN DE SPRINTS
+# Desenvolupament Web Front-End: Angular/React
 
-## Diagnóstico
-- Falta de objetivos concretos por sprint. 
-- Los recursos no se acotan para identificar los conocimientos necesarios.
-- La información es confusa. Cada sprint contiene múltiples carpetas con información.
-- Se están compartiendo recursos que no son propios de itacademy.
-- No hay un assessment real de los objetivos alcanzados.
-- Las rúbricas no valoran la calidad del trabajo.
-- El contenido y las rúbricas difieren entre especialidades.
-- No se están evaluando buenas prácticas en el trabajo, sólo se evalúa funcionalidad.
-- Hay ejercicios obsoletos o no adecuados a los objetivos del sprint.
-- Se dan recomendaciones y normas genéricas de las entregas pero no se da un checklist específicos de la calidad de la entrega.
-- No hay un assessment de conocimientos generales de la formación
-- El roadmap no está actualizado: boostrap no es el framework de estilos más utilizado actualmente, 
-- React no está actualizado. No se usa en framework.
-- Falta un sprint sólo backend + bbdd
-- No se trabajan despliegues
-- No se prioriza testing
+## Descripció
 
+Aquesta especialització està dissenyada perquè et converteixis en un desenvolupador capaç d'assumir tot el cicle de desenvolupament front-end d'una aplicació web moderna, utilitzant Angular o React, segons la teva elecció.
 
-## Propuesta
-- Sprint 0: Debe revisar los conceptos expuestos en el curso puente. Podría incluir un formulario de evaluación y checklist de instalaciones. Faltaría incluir manejo de terminal linux. Plugins importantes de vscode. Debe ser obligatorio pasar la evaluación.
-- Sprint 1: Simplificar a una tarea. Los objetivos del módulo deben ser tres: buenas prácticas de maquetación, html semántico,accesibilidad, páginas de estilos bien construidas, resultado final debe ser exacto al diseño,despliegue en producción, buenas prácticas de git/github.
-Teoría: Objetivos de aprendizaje, recursos propios u oficiales, conclusiones y evaluación de conceptos.
-Práctica:
-    - Nivel 1: maquetación vanilla
-    - Nivel 2: maquetación librerias de estilos (tailwind | bootstrap)
-    - Nivel 3: bonus track extender el diseño (FIGMA, javaScript y animaciones)
-- Sprint 2: Bases de JS y DOM. Objetivos: buenas prácticas de programación (clean code, patterns y antipatterns) + Anteriores, ES6 y testing.
-Teoría: Objetivos de aprendizaje, recursos propios u oficiales, conclusiones y evaluación de conceptos. 
-Práctica:
-    - Tarea 1: Fundamentos de JS: Lógica de una aplicación. Trab- ajar los conceptos dentro de una aplicación. Podría ser una aplicación solo terminal. Con tests hechos y otros habría que hacerlos.
-    - Tarea 2: DOM Manipulation: Ofrecer un template visual y adaptarlo. Crear las funciones y los tests de prueba.
-- Sprint 3: TDD con typescript
-    radiostreaming
-- Prueba nivel
+Al llarg del bootcamp, no només aprendràs a maquetar i programar amb tecnologies fonamentals com HTML, CSS, JavaScript, TypeScript, llibreries i frameworks, sinó que també aplicaràs principis i bones pràctiques de desenvolupament inspirats en Extreme Programming (XP), com ara la integració contínua, el desenvolupament guiat per proves (TDD) i la millora constant del codi.
 
-- Sprint 4: Proyecto Vanilla: consumo de API.
+La metodologia d'ensenyament es basa en l'aprenentatge basat en projectes (ABP), simulant entorns i desafiaments reals per preparar-te per al teu futur professional des del primer dia. Cada esprint del curs t'enfrontarà a reptes tècnics concrets, permetent construir solucions reals de forma progressiva i autonòmica.
 
-- Sprint 5: Intro al Framework: Componentes+routing+estilos
-    - 
-- Sprint 6: Presupuestos con backend
+L'aula es dinamitza amb pedagogia activa: ets responsable del teu ritme d'aprenentatge, comptant sempre amb l'acompanyament d'un/a mentor/a que t'orientarà i resoldrà els teus dubtes de manera personalitzada durant tot el procés.
 
-- Sprint 7: Starwars y COVID-TRACKER -> Authentication
+Al Campus Virtual (Moodle) tindràs accés a tot el material teòric i pràctic necessari alineats amb les competències que s'esperen d'un professional del front-end actual.
 
-- Sprint 8: Nuevas herramientas y plugins
-    - Next.js
-    - Angular Universal.
-    - Pair programming 
+En finalitzar el curs, presentaràs un projecte final on podràs demostrar tot allò après, desenvolupant una aplicació completa des de zero, aplicant tant les teves habilitats tècniques com metodològiques.
 
-- Prueba de nivel
+## Objectiu general
 
-- Sprint 9: Proyecto
+Dominar el desenvolupament front-end modern basat en SPA utilitzant Angular o React.
 
+## Objectius específics
 
-
+1. Maquetar interfícies web accessibles, adaptatives i responsives, emprant HTML semàntic, CSS modern (Flexbox, Grid), preprocessadors, llibreries i frameworks.
+2. Utilitzar JavaScript i TypeScript de forma avançada, comprenent el seu tipatge, asincronia, maneig d'esdeveniments i estructura modular per crear codi net, escalable i mantenible.
+3. Consumir API externes i gestionar les seves dades de manera dinàmica des dels components del front-end.
+4. Aplicar bones pràctiques de programació basades a Extreme Programming (XP) des de control de versions amb Git, integració contínua, desenvolupament basat en proves (TDD) i refactorització de codi.
+5. Gestionar el cicle complet de desenvolupament d'una aplicació front-end, des de la presa de requeriments fins al lliurament final, incloent-hi planificació àgil, testing i desplegament.
+6. Participar activament en entorns col·laboratius, utilitzant eines i dinàmiques àgils, fomentant el treball en equip i la millora continuada.
+7. Desenvolupar solucions reals en contextos simulats, a través de projectes individuals i grupals que reflecteixin situacions del món laboral.
+8. Adquirir autonomia a l'aprenentatge tècnic.
