@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Desenvolupament Web Front-End: Angular/React](README.md)
+* [Front-End Web Developer amb Angular/React](README.md)
 * [Itinerari Formatiu](altres_documents.md)
 * [Sprint 0: Berners Lee /](briefing0/README.md)
   * [Contextualització d’Aplicacions Web](briefing0/moodle.md)
